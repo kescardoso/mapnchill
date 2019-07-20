@@ -29,19 +29,20 @@
         <div class="container-fluid alert-container">
             <div class="row d-none d-sm-block">
                 <div class="col-12">
-                    <div class="alert pro-alert text-center">
-                        <button type="button" class="close" data-dismiss="alert">×</button>
-                        Are you a Yoga or Massage Professional? 
-                        <a href="#">Sign up and start advertising for FREE! (Limited Offer)</a> 
+                    <div class="alert alert-for-pro text-center">
+                        <!--<button type="button" class="close" data-dismiss="alert">×</button>-->
+                        Are you a yoga or massage professional? 
+                        <strong><a href="#">Sign up and start advertising for FREE!</a></strong> (limited offer)
                     </div>
                 </div>
             </div>
         </div>
     
-        <div class="container-fluid">
-            <nav class="navbar fixed-top navbar-light navbar-expand-sm">
+        <!-- Navbar-->
+        <div class="container-fluid nav-container">
+            <nav class="navbar navbar-light navbar-expand-lg">
                 
-                <a class="navbar-brand" href="#"><img src="assets/images/Logo-Map&Chill-3.jpg" height="30">
+                <a class="navbar-brand" href="#"><img src="assets/images/Logo-Map&Chill-Nav.jpg" height="30">
                 </a>
                 
                 <button
@@ -63,11 +64,11 @@
                         <li class="nav-item mr-2" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link scroll" href="#link3">Link3</a></li>
                         <li class="nav-item mr-2" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link scroll" href="#link4">Link4</a></li>
                         <li class="nav-item mr-2 d-block d-lg-none d-xl-none scroll" data-toggle="collapse" data-target=".navbar-collapse.show">
-                            <a class="nav-link" href="#...">Are you a Pro?<br>Sign in or Sign up!</a>
+                            <a class="nav-link" href="#"><strong>Are you a Pro?<br>Sign in or Sign up!</strong></a>
                         </li>
                     </ul>
                 </div>
-                <a class="btn btn-pro-sign d-none d-lg-block" href="#...">Sign in | Sign up</a>
+                <a class="btn btn-nav-pro-sign d-none d-lg-block" href="#...">Sign in | Sign up</a>
             </nav>
         </div>
         
@@ -79,124 +80,110 @@
         </div>
         
         <div class="row">
-            <div class="col-12 my-5">
+            <div class="col-12">
                 <section class="hero jumbotron text-center">
-                    <h1 class="jumbotron-header">The finest flower teas at your doorstep</h1>
-                    <hr class="block-divider block-divider--yellow">
-                    <p class="lead">Sign up today and start receiving the world's best flower teas<br/>every month for 
-                    <s class="d-none d-sm-inline">€11.99</s> 
-                    <span class="d-inline d-sm-none"><br></span>
-                    <strong><mark> First one is free! </mark></strong></p>
-                    <p><button class="btn btn-lg btn--cta btn--lavender" data-toggle="modal" data-target="#signUpModal">Sign Up!</button></p>
-                    <p class="text-muted"><small>You must be an European resident to sign up to our service</small></p>
+                    
+                    <h2 class="jumbotron-header">Find Yoga and Massage in the Côte d'Azur</h2>
+                    <p class="jumbotron-text">Map & Chill is a Yoga and Massage finder:
+                    <br>
+                    it helps you find the best yoga teachers and massage therapists 
+                    <span class="d-none d-md-inline"><br/></span>
+                    so you can enjoy a healthy, relaxing break in the French Riviera! 
+                    </p>
+                    <h4 class="cta-jumbo-search">Start searching now:</h4>
+
+                    <div class="center-form">
+                        <!-- GitHub Form -->
+                        <input type="text" id="hero-jumbo-search" value="Yoga" oninput="fetchGoogleInformation()">
+                    </div>
+                    
                 </section>
             </div>
         </div>
         
     </div>
     
-    <!-- Quotes -->
+    <!-- Round Logo -->
     <div class="container logo-container d-flex justify-content-center">
         <div class="row">
             <div class="col-12">
                 <div class="media">
-                    <div class="d-none d-sm-block">   
-                        <img src="assets/images/Logo-Map&Chill-1R.jpg" class="round-logo rounded-circle mr-3" height=500 width=500 alt="Map & Chill">
-                    </div>
+                    <img src="assets/images/Logo-Map&Chill-1R.jpg" class="img-fluid round-logo rounded-circle mr-3" height=500 width=500 alt="Map & Chill">
                 </div>
             </div>
         </div>
     </div>
     
-    <!-- Hero -->
-    <div class="landing-text">
-        <h1>Map & Chill</h1>
-        <h3>Text</h3>
-        <a href="#" class= "btn btn-default btn-lg">Search Now:</a>
+    <!-- Fixed Paralax Image -->
+    <div class="container-fluid paralax-container">
+        <div class="opaque-overlay">&nbsp;
+        </div>
+    </div>
+    
+    <!-- Features -->
+    <div class="container-wrapper container-wrapper--lavender"> 
+      <div class="container features-container content-container">
+        <section class="features">
+          
+          <div class="row">
+            <div class="col-12 page-header">
+              <h2 class="text-uppercase">Features</h2>
+              <hr class="block-divider block-divider--short block-divider--white">
+            </div>
+          </div>
+          
+          <div class="row">
+            
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="feature">
+                <h3><i class="fas fa-gift d-none d-sm-block"></i> Feature 1 <span class="badge badge-newy">New!</span></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p><a class="btn btn-sm btn--feat btn--ocre" href="">Read More</a></p>
+              </div>
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="feature">
+                <h3><i class="fas fa-credit-card d-none d-sm-block"></i> Feature 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p><a class="btn btn-sm btn--feat btn--ocre" href="">Read More</a></p>
+              </div>
+            </div>
+            
+            <div class="col-12 d-md-none d-lg-block col-lg-4">
+              <div class="feature">
+                <h3><i class="fas fa-truck d-none d-sm-block"></i> Feature 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p><a class="btn btn-sm btn--feat btn--ocre" href="">Read More</a></p>
+              </div>
+            </div>
+            
+          </div>
+          
+        </section>
+      </div>
     </div>
   
-    <!-- Container 1 -->
-    <div class="padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <img src="assets/images/Logo-Map&Chill-1.jpg"></img>
-                </div>
-                <div class="col-sm-6">
-                    <h2>Text Here</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis sit ratione voluptas ut dolorem recusandae! Aperiam quibusdam saepe provident tenetur, iusto aliquid rerum totam.
-                    </p>
-                </div>
+  
+  
+  
+    <!-- Footer -->
+    <div class="container-fluid footer-container">
+        <footer>
+            <div class="footer text-uppercase text-center">
+                <p>
+                    <a href="" data-toggle="modal" data-target="#modalMailchimp" aria-label="Sign up to our Newsletter on Mailchimp"><i class="footer-social-links fab fa-mailchimp"></i></a>
+                    <a href="http://instagram.com/kescardoso" target="_blank" aria-label="Follow me on Instagram" rel="noopener"><i class="footer-social-links fab fa-instagram"></i></a>
+                    <a href="http://facebook.com/kescardoso" target="_blank" aria-label="Follow me on Facebook" rel="noopener"><i class="footer-social-links fab fa-facebook-square"></i></a>
+                    <a href="" data-toggle="modal" data-target="#modalContactForm" aria-label="Contact"><i class="footer-social-links far fa-envelope"></i></a>
+                </p>
+                <p>©2019 <a href="#" aria-label="Home: Map & Chill">Map & Chill</a> by <a href="http://kescardoso.com" target="_blank" aria-label="Kes Cardoso website">Kes Cardoso</a></p>
+                <p>Powered by Prana & Pixels</p>
+                <p><a href="#" aria-label="Read our terms and conditions">Terms and Conditions</a></p>
             </div>
-        </div>
-    </div>
-    
-    <!-- Container 2 -->
-    <div class="padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <h4>Text Here</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia corporis commodi voluptatibus, maiores, perferendis placeat aliquam! Voluptas corrupti, eos saepe.
-                    </p>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <img src="assets/images/Logo-Map&Chill-1.jpg" class="img-responsive">
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <h4>Text Here</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia corporis commodi voluptatibus, maiores, perferendis placeat aliquam! Voluptas corrupti, eos saepe.
-                    </p>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <img src="assets/images/Logo-Map&Chill-1.jpg" class="img-responsive">
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Container 3 Fixed Scrolling Background Image -->
-    <div id="fixed">
-        
-    </div>
-    
-    <!-- Container 4 -->
-    <div class="padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <h2>Text Here</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis sit ratione voluptas ut dolorem recusandae! Aperiam quibusdam saepe provident tenetur, iusto aliquid rerum totam.
-                    </p>
-                </div>
-                <div class="col-sm-6">
-                    <img src="assets/images/Logo-Map&Chill-1.jpg"></img>
-                </div>
-            </div>
-        </div>
+        </footer>
     </div>
 
-    <!-- Container 5 Footer -->
-    <footer class= "container-fluid text-center">
-        <div class="row">
-            <div class="col-sm-4">
-                <h3>Contact Us</h3>
-                <br>
-                <h4>Our infor here</h4>
-            </div>
-            <div class="col-sm-4">
-                <h3>Connect</h3>
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-linkedin"></a>
-            </div>
-            <div class="col-sm-4">
-                <img src="assets/images/Logo-Map&Chill-1.jpg">
-            </div>
-        </div>
-    </footer>
     
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>

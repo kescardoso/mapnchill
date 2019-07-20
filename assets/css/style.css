@@ -20,7 +20,6 @@ a:focus,
 a:active:focus {
     text-decoration: none;
     color: #000;
-    font-weight: 700;
 }
 
 /*-----------------------------------------------------------------> Headings */
@@ -60,20 +59,28 @@ h4 {
     margin-bottom: px;
 }
 
-/*-------------------------------------------------------------------> Navbar */
+/*------------------------------------------------------------------> Buttons */
 
-.navbar {
-    padding: 0 4px 2px 6px;
-    background-color: #fbd9ce;
+.btn-nav-pro-sign {
+    color: #fff;
+    font-size: 18px;
     font-weight: 500;
-    font-size: 85%;
+    border-radius: 24px;
+    width: 170px;
+    padding: 3px 0;
+    background-color: #f59751;
+    margin-top: 3px;
 }
 
-.nav-container {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
+.btn-nav-pro-sign:hover,
+.btn-nav-pro-sign:active,
+.btn-nav-pro-sign:focus,
+.btn-nav-pro-sign:active:focus {
+    color: #1aaa9d;
+    background-color: #fce5d3;
 }
+
+/*--------------------------------------------------------------------> Alert */
 
 .navalert-container {
     position: absolute;
@@ -96,6 +103,21 @@ h4 {
   background-color: #f5f5f5;
 }
 
+/*-------------------------------------------------------------------> Navbar */
+
+.navbar {
+    padding: 0 4px 2px 6px;
+    background-color: #fbd9ce;
+    font-weight: 500;
+    font-size: 85%;
+}
+
+.nav-container {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .navbar .navbar-toggler {
     border: 0!important;
 }
@@ -104,22 +126,56 @@ h4 {
 
 .hero-container {
     height: 100vh;
-    
     background: url("../images/heroAzur.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
+}
+
+.jumbotron {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px 24px;;
+}
+
+.jumbotron-header {
+    
+}
+
+.jumbotron-text {
+    
+}
+
+.cta-jumbo-search {
+    
 }
 
 /*---------------------------------------------------------------> Round Logo */
 
 .round-logo {
     margin-top: -72px;
+}
+
+/*------------------------------------------------------------> Paralax Image */
+
+.paralax-container {
+    height: 80vh;
+    width: 100%;
+    background: url(../images/groupBeach.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    margin-top: -80px;
 }
