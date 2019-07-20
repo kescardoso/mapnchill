@@ -99,3 +99,27 @@ h4 {
 .navbar .navbar-toggler {
     border: 0!important;
 }
+
+/*----------------------------------------------------------> Hero + Call Out */
+
+.hero-container {
+    height: 100vh;
+    
+    background: url("../images/heroAzur.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+/*---------------------------------------------------------------> Round Logo */
+
+.round-logo {
+    margin-top: -72px;
+}
