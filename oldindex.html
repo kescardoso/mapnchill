@@ -24,39 +24,54 @@
 
 <body>
     
-    <!-- Navbar -->
-    <div class="container-fluid">
-        
-        <nav class="navbar fixed-top navbar-light navbar-expand-lg">
-                
-            <a class="navbar-brand" href"#"><img src="assets/images/Logo-Map&Chill-3.jpg" height="28">
-            </a>
-            
-            <button
-                class="navbar-toggler ml-auto"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-                >
-                <span class="navbar-toggler-icon">
-                </span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto text-uppercase">
-                    <li class="active nav-item mr-2"><a class="nav-link scroll" href="#link1">Link 1</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link scroll" href="#link2">Link 2</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link scroll" href="#link3">Link 3</a></li>
-                </ul>
+    <!-- Alert -->
+    <div class="container-fluid navalert-container">
+        <div class="container-fluid alert-container">
+            <div class="row d-none d-sm-block">
+                <div class="col-12">
+                    <div class="alert pro-alert text-center">
+                        <button type="button" class="close" data-dismiss="alert">×</button>
+                        Are you a Yoga or Massage Professional? 
+                        <a href="#">Sign up and start advertising for FREE! (Limited Offer)</a> 
+                    </div>
+                </div>
             </div>
-            
-            <a class="btn cta-btn-signup d-none d-lg-block" href="#">Sign in / Sign up</a>
-            
-        </nav>
+        </div>
     
+         Navbar
+        <div class="container-fluid">
+            <nav class="navbar fixed-top navbar-light navbar-expand-sm">
+                
+                <a class="navbar-brand" href="#"><img src="assets/images/Logo-Map&Chill-3.jpg" height="30">
+                </a>
+                
+                <button
+                    class="navbar-toggler ml-auto"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    >
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto text-uppercase">
+                        <li class="active nav-item mr-2" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link scroll" href="#link1">Link1</a></li>
+                        <li class="nav-item mr-2" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link scroll" href="#link2">Link2</a></li>
+                        <li class="nav-item mr-2" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link scroll" href="#link3">Link3</a></li>
+                        <li class="nav-item mr-2" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link scroll" href="#link4">Link4</a></li>
+                        <li class="nav-item mr-2 d-block d-lg-none d-xl-none scroll" data-toggle="collapse" data-target=".navbar-collapse.show">
+                            <a class="nav-link" href="#...">Are you a Pro?<br>Sign in or Sign up!</a>
+                        </li>
+                    </ul>
+                </div>
+                <a class="btn btn-pro-sign d-none d-lg-block" href="#...">Sign in | Sign up</a>
+            </nav>
+        </div>
+        
     </div>
     
     <!-- Hero -->
