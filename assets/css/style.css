@@ -1,0 +1,21 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/*Navbar*/
+
+.navbar {
+    background-color: #fbd9ce;
+    padding: 1%, 0;
+    font-size: 1.2em;
+}
