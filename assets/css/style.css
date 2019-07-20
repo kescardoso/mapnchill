@@ -3,7 +3,9 @@ html {
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Darker Grotesque", sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
 }
 
 /*--------------------------------------------------------------------> Links */
@@ -20,12 +22,47 @@ a:active:focus {
     color: #5b6265;
 }
 
+/*-----------------------------------------------------------------> Headings */
+
+h1, h2, h3, h4 {
+    font-family: 
+    color: #;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: px;
+    line-height: px;
+    margin-top: px;
+    margin-bottom: px;
+}
+    
+h2 {
+    font-size: px;
+    line-height: px;
+    margin-top: px;
+    margin-bottom: px;
+}
+
+h3 {
+    font-size: px;
+    line-height: px;
+    margin-top: px;
+    margin-bottom: px;
+}
+
+h4 {
+    font-size: px;
+    line-height: px;
+    margin-top: px;
+    margin-bottom: px;
+}
 
 /*-------------------------------------------------------------------> Navbar */
 
 .navbar {
     background-color: #fbd9ce;
-    letter-spacing: 2px;
-    font-weight: 500;
-    padding: 4px 0;
+    font-size: 85%;
+    padding: 2px 0;
 }
