@@ -1,15 +1,25 @@
-html, body {
-    height: 100%;
-    width: 100%;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
     font-family: "Montserrat", sans-serif;
 }
 
-html {
-  scroll-behavior: smooth;
+/*--------------------------------------------------------------------> Links */
+
+a {
+    color: #552955;
 }
+
+a:hover,
+a:active,
+a:focus,
+a:active:focus {
+    text-decoration: none;
+    color: #5b6265;
+}
+
 
 /*-------------------------------------------------------------------> Navbar */
 
