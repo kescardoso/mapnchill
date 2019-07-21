@@ -24,14 +24,14 @@
 
 <body>
     
-    <!-- Alert -->
+    <!-- Alert: Top page CTA for Professionals -->
     <div class="container-fluid navalert-container">
         <div class="container-fluid alert-container">
             <div class="row d-none d-sm-block">
                 <div class="col-12">
                     <div class="alert alert-for-pro text-center">
                         <!--<button type="button" class="close" data-dismiss="alert">×</button>-->
-                        Are you a yoga or massage professional? 
+                        Are you a yoga teacher or massage therapist? 
                         <strong><a href="#">Sign up and start advertising for FREE!</a></strong> (limited offer)
                     </div>
                 </div>
@@ -42,9 +42,11 @@
         <div class="container-fluid nav-container">
             <nav class="navbar navbar-light navbar-expand-lg">
                 
+                <!-- Nav Logo -->
                 <a class="navbar-brand" href="#"><img src="assets/images/Logo-Map&Chill-Nav.jpg" height="30">
                 </a>
                 
+                <!-- Responsive Navbar Menu -->
                 <button
                     class="navbar-toggler ml-auto"
                     type="button"
@@ -55,7 +57,7 @@
                     aria-label="Toggle navigation"
                     >
                     <span class="navbar-toggler-icon"></span>
-                    </button>
+                </button>
                 
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ml-auto text-uppercase">
@@ -76,26 +78,38 @@
     
     <!-- Hero + Jumbotron -->
     <div class="container-fluid hero-container">
+        
+        <!-- Hero Image -->
         <div class="opaque-overlay">&nbsp;
         </div>
         
         <div class="row">
             <div class="col-12">
-                <section class="hero jumbotron text-center">
+                
+                <!-- Jumbotron -->
+                <section class="jumbotron text-center">
                     
                     <h2 class="jumbotron-header">Find Yoga and Massage in the Côte d'Azur</h2>
-                    <p class="jumbotron-text">Map & Chill is a Yoga and Massage finder:
+                    <p class="jumbotron-text">Map & Chill is a yoga and massage locator:
                     <br>
                     it helps you find the best yoga teachers and massage therapists 
                     <span class="d-none d-md-inline"><br/></span>
                     so you can enjoy a healthy, relaxing break in the French Riviera! 
                     </p>
-                    <h4 class="cta-jumbo-search">Start searching now:</h4>
-
-                    <div class="center-form">
-                        <!-- Google Search Input -->
-                        <input type="text" id="hero-jumbo-search" value="Yoga" oninput="fetchGoogleInformation()">
+                    <h4 class="cta-jumbo-search">Try now:</h4>
+                    
+                     Google Places search-box input with no map 
+                    <div class="jumbo-search-box center-form">
+                        <input 
+                            id="jumbo-search-term" 
+                            class="jumbo-search-box-control" 
+                            type="text"  
+                            placeholder=" Find a yoga teacher or massage therapist in the Côte d'Azur"
+                        >
                     </div>
+                    
+                    <!-- Create button to jump down to google map -->
+                    <h4 class="cta-jumbo-map">Or click here to use the map!</h4>
                     
                 </section>
             </div>
@@ -103,70 +117,38 @@
         
     </div>
     
-    <!-- Round Logo -->
+    <!-- Round Logo Divider -->
     <div class="container logo-container d-flex justify-content-center">
         <div class="row">
             <div class="col-12">
                 <div class="media">
-                    <img src="assets/images/Logo-Map&Chill-1R.jpg" class="img-fluid round-logo rounded-circle mr-3" height=500 width=500 alt="Map & Chill">
+                    <img    src="assets/images/Logo-Map&Chill-1R.jpg" 
+                            class="img-fluid round-logo rounded-circle mr-3" 
+                            height=500 
+                            width=500 
+                            alt="Map & Chill"
+                    >
                 </div>
             </div>
         </div>
     </div>
     
-    <!-- Fixed Paralax Image -->
-    <div class="container-fluid paralax-container">
+    <!-- Parallax Yoga Image -->
+    <div class="container-fluid parallax-container">
         <div class="opaque-overlay">&nbsp;
         </div>
     </div>
     
-    <!-- Features -->
-    <div class="container-wrapper container-wrapper--lavender"> 
-      <div class="container features-container content-container">
-        <section class="features">
-          
-          <div class="row">
-            <div class="col-12 page-header">
-              <h2 class="text-uppercase">Features</h2>
-              <hr class="block-divider block-divider--short block-divider--white">
+    <!-- Map -->
+    <div class="container map-container"> 
+        <div class="row">
+            <div class="col-12">
+                <!-- Google map -->
+                <div id="search-map"></div>
             </div>
-          </div>
-          
-          <div class="row">
-            
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="feature">
-                <h3><i class="fas fa-gift d-none d-sm-block"></i> Feature 1 <span class="badge badge-newy">New!</span></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <p><a class="btn btn-sm btn--feat btn--ocre" href="">Read More</a></p>
-              </div>
-            </div>
-            
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="feature">
-                <h3><i class="fas fa-credit-card d-none d-sm-block"></i> Feature 2</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <p><a class="btn btn-sm btn--feat btn--ocre" href="">Read More</a></p>
-              </div>
-            </div>
-            
-            <div class="col-12 d-md-none d-lg-block col-lg-4">
-              <div class="feature">
-                <h3><i class="fas fa-truck d-none d-sm-block"></i> Feature 3</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <p><a class="btn btn-sm btn--feat btn--ocre" href="">Read More</a></p>
-              </div>
-            </div>
-            
-          </div>
-          
-        </section>
-      </div>
+        </div>
     </div>
-  
-  
-  
-  
+    
     <!-- Footer -->
     <div class="container-fluid footer-container">
         <footer>
@@ -186,10 +168,23 @@
 
     
     <!-- Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/popper.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Google Maps/Places API: Jumbo Search Box -->
+    <script>
+        function activatePlacesSearch() {
+            var input = document.getElementById("jumbo-search-term");
+            var autocomplete = new google.maps.places.Autocomplete(input);
+        }
+    </script>
     
-    <!-- Google Places API -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmNn5vKRp_5ZR_NBvqMtN-IWyVJeCafTk&libraries=places"></script>
+    <!-- Google Maps/Places API Key -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmNn5vKRp_5ZR_NBvqMtN-IWyVJeCafTk&libraries=places&callback=activatePlacesSearch"></script>
+
+    <!-- Custom Javascript -->
+    <script type="text/javascript" src="assets/js/scripts.js"></script>
+    
 </body>
 </html>

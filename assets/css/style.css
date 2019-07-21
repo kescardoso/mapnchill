@@ -154,15 +154,28 @@ h4 {
     
 }
 
+/*-----------------------------------------------> Hero-Jumbo Text Search Box */
+
+#jumbo-search-term {
+    color: #999;
+    width: 86%;
+    letter-spacing: 1px;
+}
+
+.jumbo-search-box-control {
+    border: none;
+    border-radius: 8px;
+}
+
 /*---------------------------------------------------------------> Round Logo */
 
 .round-logo {
     margin-top: -72px;
 }
 
-/*------------------------------------------------------------> Paralax Image */
+/*-----------------------------------------------------------> Parallax Image */
 
-.paralax-container {
+.parallax-container {
     height: 80vh;
     width: 100%;
     background: url(../images/groupBeach.jpg) no-repeat center center fixed;
@@ -178,4 +191,10 @@ h4 {
     top: 0px;
     z-index: -1;
     margin-top: -80px;
+}
+
+/*---------------------------------------------------------------> Search Map */
+
+#search-map {
+    height: 100%;
 }
