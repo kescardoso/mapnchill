@@ -10,13 +10,13 @@
     <title>Map & Chill</title>
     
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     
     <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Darker+Grotesque:400,500,700%7CMontserrat:400,500,700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Darker+Grotesque:400,500,700%7CMontserrat:400,500,700&display=swap" />
     
     <!-- FontAwesome -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
@@ -25,18 +25,18 @@
 <body>
     
     <!-- Alert: Top page CTA for Professionals -->
-    <div class="container-fluid navalert-container">
-        <div class="container-fluid alert-container">
-            <div class="row d-none d-sm-block">
-                <div class="col-12">
-                    <div class="alert alert-for-pro text-center">
+    <!--<div class="container-fluid navalert-container">-->
+    <!--    <div class="container-fluid alert-container">-->
+    <!--        <div class="row d-none d-sm-block">-->
+    <!--            <div class="col-12">-->
+    <!--                <div class="alert alert-for-pro text-center">-->
                         <!--<button type="button" class="close" data-dismiss="alert">×</button>-->
-                        Are you a yoga teacher or massage therapist? 
-                        <strong><a href="#">Sign up and start advertising for FREE!</a></strong> (limited offer)
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!--                    Are you a yoga teacher or massage therapist? -->
+    <!--                    <strong><a href="#">Sign up and start advertising for FREE!</a></strong> (limited offer)-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </div>-->
     
         <!-- Navbar-->
         <div class="container-fluid nav-container">
@@ -94,22 +94,9 @@
                     <br>
                     it helps you find the best yoga teachers and massage therapists 
                     <span class="d-none d-md-inline"><br/></span>
-                    so you can enjoy a healthy, relaxing break in the French Riviera! 
+                    so you can enjoy a healthy, relaxing break in the French Riviera. 
                     </p>
-                    <h4 class="cta-jumbo-search">Try now:</h4>
-                    
-                     Google Places search-box input with no map 
-                    <div class="jumbo-search-box center-form">
-                        <input 
-                            id="jumbo-search-term" 
-                            class="jumbo-search-box-control" 
-                            type="text"  
-                            placeholder=" Find a yoga teacher or massage therapist in the Côte d'Azur"
-                        >
-                    </div>
-                    
-                    <!-- Create button to jump down to google map -->
-                    <h4 class="cta-jumbo-map">Or click here to use the map!</h4>
+                    <h4 class="cta-jumbo-search">Scroll down to Start!</h4>
                     
                 </section>
             </div>
@@ -118,35 +105,51 @@
     </div>
     
     <!-- Round Logo Divider -->
-    <div class="container logo-container d-flex justify-content-center">
+    <!--<div class="container logo-container d-flex justify-content-center">-->
+    <!--    <div class="row">-->
+    <!--        <div class="col-12">-->
+    <!--            <div class="media">-->
+    <!--                <img    src="assets/images/Logo-Map&Chill-1R.jpg" -->
+    <!--                        class="img-fluid round-logo rounded-circle mr-3" -->
+    <!--                        height=500 -->
+    <!--                        width=500 -->
+    <!--                        alt="Map & Chill"-->
+    <!--                >-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--</div>-->
+    
+    <!-- Parallax Yoga Image -->
+    <!--<div class="container-fluid parallax-container">-->
+    <!--    <div class="opaque-overlay">&nbsp;-->
+    <!--    </div>-->
+    <!--</div>-->
+    
+    <!-- Google API -->
+    <div class="container-fluid map-container">
+        
+        <!-- Google Searchbox -->
         <div class="row">
-            <div class="col-12">
-                <div class="media">
-                    <img    src="assets/images/Logo-Map&Chill-1R.jpg" 
-                            class="img-fluid round-logo rounded-circle mr-3" 
-                            height=500 
-                            width=500 
-                            alt="Map & Chill"
+            <div class="col">
+                <div class="map-searchbox d-flex justify-content-left">
+                    <input 
+                        id="search" 
+                        class="controls" 
+                        type="text"  
+                        placeholder=" Search yoga or massage in the Côte d'Azur"
                     >
                 </div>
             </div>
         </div>
-    </div>
-    
-    <!-- Parallax Yoga Image -->
-    <div class="container-fluid parallax-container">
-        <div class="opaque-overlay">&nbsp;
-        </div>
-    </div>
-    
-    <!-- Map -->
-    <div class="container map-container"> 
+        
+        <!-- Google Map -->
         <div class="row">
-            <div class="col-12">
-                <!-- Google map -->
-                <div id="search-map"></div>
+            <div class="col">
+                <div id="map"></div>
             </div>
         </div>
+        
     </div>
     
     <!-- Footer -->
@@ -165,24 +168,23 @@
             </div>
         </footer>
     </div>
-
     
-    <!-- Bootstrap JS -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/popper.min.js"></script>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
 
     <!-- Google Maps/Places API: Jumbo Search Box -->
     <script>
-        function activatePlacesSearch() {
-            var input = document.getElementById("jumbo-search-term");
+        function activateMapSearch() {
+            var input = document.getElementById("search");
             var autocomplete = new google.maps.places.Autocomplete(input);
         }
     </script>
-    
-    <!-- Google Maps/Places API Key -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmNn5vKRp_5ZR_NBvqMtN-IWyVJeCafTk&libraries=places&callback=activatePlacesSearch"></script>
+    <!-- Google API Key for Search Box -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmNn5vKRp_5ZR_NBvqMtN-IWyVJeCafTk&libraries=places&callback=activateMapSearch"></script>
 
+    <!-- Bootstrap JS -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
     <!-- Custom Javascript -->
     <script type="text/javascript" src="assets/js/scripts.js"></script>
     

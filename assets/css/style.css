@@ -3,8 +3,9 @@ html {
 }
 
 body {
-    font-family: "Darker Grotesque", sans-serif;
-    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+    /*font-family: "Darker Grotesque", sans-serif;*/
+    font-size: 16px;
     letter-spacing: 2px;
 }
 
@@ -68,7 +69,7 @@ h4 {
     border-radius: 24px;
     width: 170px;
     padding: 3px 0;
-    background-color: #f59751;
+    background-color: #1aaa9d;
     margin-top: 3px;
 }
 
@@ -154,17 +155,31 @@ h4 {
     
 }
 
-/*-----------------------------------------------> Hero-Jumbo Text Search Box */
+/*------------------------------------------------> Google Map and Search Box */
 
-#jumbo-search-term {
-    color: #999;
-    width: 86%;
+#search {
+    width: 90%;
     letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
 }
 
-.jumbo-search-box-control {
-    border: none;
+.controls {
+    margin: 10px 10px 0 10px;
+    border: 1px solid transparent;
     border-radius: 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 40px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#map {
+    height: 700px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 /*---------------------------------------------------------------> Round Logo */
@@ -193,8 +208,5 @@ h4 {
     margin-top: -80px;
 }
 
-/*---------------------------------------------------------------> Search Map */
+/*---------------------------------------------------------------> ... */
 
-#search-map {
-    height: 100%;
-}
