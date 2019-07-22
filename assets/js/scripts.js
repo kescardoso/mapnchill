@@ -1,19 +1,22 @@
-var map;
-
+// Google API:
 // Create map function: activateMapSearch.
 function activateMapSearch() {
+    
+    var markers = [];
+    var azurBounds = {lat: 43.5587661, lng: 6.354539};
     var options = {
-        center: { lat: 43.3878549, lng: 5.960352 },
+        center: azurBounds,
         zoom: 9,
         disableDefaultUI: true
     };
+    var map = new google.maps.Map(document.getElementById('map'), options);
     
-    map = new google.maps.Map(document.getElementById('map'), options);
+    
     
     // Create the search box and link it to the map.
     var input = /** @type {HTMLInputElement} */(document.getElementById('search'));
     
-    map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+    map.controls[google.maps.ControlPosition.TOP].push(input);
 
     var searchBox = new google.maps.places.SearchBox(/** @type {HTMLInputElement} */(input));
 
@@ -29,7 +32,42 @@ function activateMapSearch() {
             for (var i = 0, marker; marker = markers[i]; i++) {
                 marker.setMap(null);
             }
-    });
+    
+    // For each place, get icon, name, and location.
+    markers = [];
+    var bounds = new google.maps.LatLngBounds();
+    for (var i = 0, place; place = places[i]; i++) {
+      var image = {
+        url: place.icon,
+        size: new google.maps.Size(71, 71),
+        origin: new google.maps.Point(0, 0),
+        anchor: new google.maps.Point(17, 34),
+        scaledSize: new google.maps.Size(25, 25)
+      };
+
+      // Create a marker for each place.
+      var marker = new google.maps.Marker({
+        map: map,
+        icon: image,
+        title: place.name,
+        position: place.geometry.location
+      });
+
+      markers.push(marker);
+
+      bounds.extend(place.geometry.location);
+    }
+
+    map.fitBounds(bounds);
+  });
+  // [END region_getplaces]
+  
+  // Bias the SearchBox results towards places that are within the bounds of the
+  // current map's viewport.
+  google.maps.event.addListener(map, 'bounds_changed', function() {
+    var bounds = map.getBounds();
+    searchBox.setBounds(bounds);
+  });
 }
 
 // Call the function and display the map on the browser.

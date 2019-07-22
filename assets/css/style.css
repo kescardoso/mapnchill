@@ -3,9 +3,8 @@ html {
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
-    /*font-family: "Darker Grotesque", sans-serif;*/
-    font-size: 16px;
+    font-family: "Darker Grotesque", sans-serif;
+    font-size: 20px;
     letter-spacing: 2px;
 }
 
@@ -64,21 +63,22 @@ h4 {
 
 .btn-nav-pro-sign {
     color: #fff;
-    font-size: 18px;
-    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
     border-radius: 24px;
     width: 170px;
-    padding: 3px 0;
-    background-color: #1aaa9d;
-    margin-top: 3px;
+    padding: 6px 0;
+    background-color: #1fccbc;
 }
 
 .btn-nav-pro-sign:hover,
 .btn-nav-pro-sign:active,
 .btn-nav-pro-sign:focus,
 .btn-nav-pro-sign:active:focus {
-    color: #1aaa9d;
-    background-color: #fce5d3;
+    color: #fff;
+    background-color: #1aaa9d;
 }
 
 /*--------------------------------------------------------------------> Alert */
@@ -101,16 +101,17 @@ h4 {
   margin-bottom: 0;
   border-radius: 0;
   padding: 4px 8px;
-  background-color: #f5f5f5;
+  background-color: #eefcfb;
 }
 
 /*-------------------------------------------------------------------> Navbar */
 
 .navbar {
-    padding: 0 4px 2px 6px;
+    padding: 3px 4px 2px 6px;
     background-color: #fbd9ce;
+    font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    font-size: 85%;
+    font-size: 14px;
 }
 
 .nav-container {
@@ -140,19 +141,20 @@ h4 {
 
 .jumbotron {
     background-color: rgba(255, 255, 255, 0.5);
-    padding: 20px 24px;;
-}
-
-.jumbotron-header {
-    
+    padding: 20px 24px;
+    border-radius: 22px;
 }
 
 .jumbotron-text {
-    
+    font-size: 24px;
 }
 
 .cta-jumbo-search {
-    
+    background-color: rgba(251, 217, 206, 0.8);
+    width: 40%;
+    padding: 3px 1px 6px 1px;
+    border-radius: 14px;
+    font-size: 90%;
 }
 
 /*------------------------------------------------> Google Map and Search Box */
@@ -160,12 +162,13 @@ h4 {
 #search {
     width: 90%;
     letter-spacing: 1px;
+    text-align: center;
     font-family: "Montserrat", sans-serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .controls {
-    margin: 10px 10px 0 10px;
+    margin: 10px 0 30px 0;
     border: 1px solid transparent;
     border-radius: 8px;
     box-sizing: border-box;
@@ -176,7 +179,7 @@ h4 {
 }
 
 #map {
-    height: 700px;
+    height: 600px;
     width: 100%;
     margin: 0px;
     padding: 0px;
