@@ -1,17 +1,20 @@
 // Google API:
 // Create map function: activateMapSearch.
+var map;
+var service;
+var infowindow;
+
 function activateMapSearch() {
     
+    var coteAzur = new google.maps.LatLng(43.5587661,6.354539);
     var markers = [];
-    var azurBounds = {lat: 43.5587661, lng: 6.354539};
-    var options = {
-        center: azurBounds,
-        zoom: 9,
-        disableDefaultUI: true
-    };
-    var map = new google.maps.Map(document.getElementById('map'), options);
     
+    infowindow = new google.maps.InfoWindow();
     
+    map = new google.maps.Map(
+        document.getElementById('map'), 
+        {center: coteAzur, zoom: 9, disableDefaultUI: true});
+
     
     // Create the search box and link it to the map.
     var input = /** @type {HTMLInputElement} */(document.getElementById('search'));
