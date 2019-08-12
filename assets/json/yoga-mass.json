@@ -1,37 +1,101 @@
 {
-	"yoga": [
+	"type": "FeatureCollection",
+	"features": [
 		{
-			"category": "Kundalini",
-			"name": "Kes Cardoso",
-			"address": "Cimiez, Nice"
+			"geometry": {
+		    "type": "Point",
+	        "coordinates":
+	        [
+	          43.7186366,
+	          7.2706853
+        	]
 		},
 		{
-			"category": "Ashtanga",
+			"category": "Yoga",
+			"services": "Kundalini", "Yin", "Balanced Flow",
+			"name": "Kes Cardoso",
+			"address": "Cimiez",
+			"website": "http://www.kescardoso.com"
+		},
+		{
+			"geometry": {
+		    "type": "Point",
+	        "coordinates":
+	        [
+	          43.6227815,
+	          7.0463002
+        	]
+		},
+		{
+			"category": "Yoga",
+			"services": "Ashtanga", "Hatha",
 			"name": "Eva Luna",
-			"address": "Massena, Nice"
+			"address": "Valbonne",
+			"website": "http://facebook.com"
 		},
 		{
-			"category": "Hot", "Kundalini", "Ashtanga", "Hatha",
+			"geometry": {
+		    "type": "Point",
+	        "coordinates":
+	        [
+	          43.6984938,
+	          7.2571126
+        	]
+		},
+		{
+			"category": "Yoga",
+			"services": "Hot", "Kundalini", "Ashtanga", "Hatha",
 			"name": "Pepita Yoga",
-			"address": "Musicien, Nice"
+			"address": "Musicien",
+			"website": "http://facebook.com"
 		},
-	],
-	
-	"massage": [
 		{
-			"category": "Shiatsu",
+			"geometry": {
+		    "type": "Point",
+	        "coordinates":
+	        [
+	          43.6972061,
+	          7.2487013
+        	]
+		},
+		{
+			"category": "Massage",
+			"services": "Shiatsu",
 			"name": "Andrea Daumas",
-			"address": "Massena, Nice"
+			"address": "Gambetta",
+			"website": "http://facebook.com" 
 		},
 		{
-			"category": "Sound Therapy",
+			"geometry": {
+		    "type": "Point",
+	        "coordinates":
+	        [
+	          43.7186366,
+	          7.2706853
+        	]
+		},
+		{
+			"category": "Massage",
+			"services": "Sound Therapy",
 			"name": "Kes Cardoso",
-			"address": "Cimiez, Nice"
+			"address": "Cimiez",
+			"website": "http://www.kescardoso.com"
 		},
 		{
-			"category": "Shiatsu", "Sound Therapy", "Aromatherapy"
+			"geometry": {
+		    "type": "Point",
+	        "coordinates":
+	        [
+	          43.6984938,
+	          7.2571126
+        	]
+		},
+		{
+			"category": "Massage",
+			"services": "Shiatsu", "Sound Therapy", "Aromatherapy"
 			"name": "Pepita Yoga",
-			"address": "Musicien, Nice"
+			"address": "Musicien",
+			"website": "http://facebook.com" 
 		},
 	]
 }
