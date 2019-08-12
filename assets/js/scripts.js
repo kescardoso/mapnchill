@@ -11,9 +11,7 @@ function activateMapSearch() {
     
     infowindow = new google.maps.InfoWindow();
     
-    map = new google.maps.Map(
-        document.getElementById('map'), 
-        {center: coteAzur, zoom: 9, disableDefaultUI: true});
+    map = new google.maps.Map(document.getElementById('map'), {center: coteAzur, zoom: 9, disableDefaultUI: true});
 
     
     // Create the search box and link it to the map.

@@ -1,0 +1,37 @@
+{
+	"yoga": [
+		{
+			"category": "Kundalini",
+			"name": "Kes Cardoso",
+			"address": "Cimiez, Nice"
+		},
+		{
+			"category": "Ashtanga",
+			"name": "Eva Luna",
+			"address": "Massena, Nice"
+		},
+		{
+			"category": "Hot", "Kundalini", "Ashtanga", "Hatha",
+			"name": "Pepita Yoga",
+			"address": "Musicien, Nice"
+		},
+	],
+	
+	"massage": [
+		{
+			"category": "Shiatsu",
+			"name": "Andrea Daumas",
+			"address": "Massena, Nice"
+		},
+		{
+			"category": "Sound Therapy",
+			"name": "Kes Cardoso",
+			"address": "Cimiez, Nice"
+		},
+		{
+			"category": "Shiatsu", "Sound Therapy", "Aromatherapy"
+			"name": "Pepita Yoga",
+			"address": "Musicien, Nice"
+		},
+	]
+}
