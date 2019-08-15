@@ -7,22 +7,19 @@ function activateMapSearch() {
 
     var markers = [];
     var mapOptions = {
-		zoom: 9,
-		center: coteAzur,
-		mapTypeId: 'roadmap'
+  		zoom: 10,
+  		center: coteAzur,
+  		mapTypeId: 'roadmap'
     }
     
     infowindow = new google.maps.InfoWindow();
     
     map = new google.maps.Map(document.getElementById('map'), mapOptions);
-      // google.maps.event.addListener(map, 'bounds_changed', function() {
-		    // alert(map.getBounds());
-      // });
 	
-// 	var defaultBounds = new google.maps.LatLngBounds(
-//       new google.maps.LatLng(43.583560899329235, 5.818945233984323),
-//       new google.maps.LatLng(44.1774634389157, 7.755285566015573));
-//     map.fitBounds(defaultBounds);
+  // 	var defaultBounds = new google.maps.LatLngBounds(
+  //     new google.maps.LatLng(43.178408976858904, 5.213259467968783),
+  //     new google.maps.LatLng(44.36830282624031, 9.085940132031283));
+  //   map.fitBounds(defaultBounds);
         
     // Create the search box and link it to the UI element.
     var input = /** @type {HTMLInputElement} */(
