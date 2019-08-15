@@ -1,100 +1,62 @@
 {
 	"features": [
+		
+		// YOGA
+		
 		{
-			"geometry": {
-		    "type": "Point",
-	        "coordinates":
-	        [
-	          43.7186366,
-	          7.2706853
-        	]
-		},
-		{
-			"category": "Yoga",
-			"services": "Kundalini", "Yin", "Balanced Flow",
-			"name": "Kes Cardoso",
+			"type": "Yoga",
+			"name": "Kes Cardoso: Yoga & Sound",
+			"services": "Kundalini", "Yin", "Yin-Yang", "Balanced Yoga Flow",
 			"address": "Cimiez",
-			"website": "http://www.kescardoso.com"
+			"website": "http://www.kescardoso.com",
+			"coordinates": [43.7186366,7.2706853]
 		},
+		
 		{
-			"geometry": {
-		    "type": "Point",
-	        "coordinates":
-	        [
-	          43.6227815,
-	          7.0463002
-        	]
-		},
-		{
-			"category": "Yoga",
-			"services": "Ashtanga", "Hatha",
+			"type": "Yoga",
 			"name": "Eva Luna",
+			"services": "Ashtanga", "Hatha",
 			"address": "Valbonne",
-			"website": "http://facebook.com"
+			"website": "http://facebook.com",
+			"coordinates": [43.6227815,7.0463002]
 		},
+		
 		{
-			"geometry": {
-		    "type": "Point",
-	        "coordinates":
-	        [
-	          43.6984938,
-	          7.2571126
-        	]
-		},
-		{
-			"category": "Yoga",
-			"services": "Hot", "Kundalini", "Ashtanga", "Hatha",
+			"type": "Yoga",
 			"name": "PepitaYoga",
+			"services": "Hot", "Kundalini", "Ashtanga", "Hatha",
 			"address": "Musicien",
-			"website": "http://facebook.com"
+			"website": "http://facebook.com",
+			"coordinates": [43.6984938,7.2571126]
 		},
+		
+		// MASSAGE
+		
 		{
-			"geometry": {
-		    "type": "Point",
-	        "coordinates":
-	        [
-	          43.6972061,
-	          7.2487013
-        	]
-		},
-		{
-			"category": "Massage",
-			"services": "Shiatsu",
+			"type": "Massage",
 			"name": "Bodywork",
+			"services": "Shiatsu",
 			"address": "Gambetta",
-			"website": "http://facebook.com" 
+			"website": "http://facebook.com",
+			"coordinates": [43.6972061,7.2487013]
 		},
+		
 		{
-			"geometry": {
-		    "type": "Point",
-	        "coordinates":
-	        [
-	          43.7186366,
-	          7.2706853
-        	]
-		},
-		{
-			"category": "Massage",
-			"services": "Sound Therapy",
+			"type": "Massage",
 			"name": "Kes Cardoso",
+			"services": "Sound Therapy",
 			"address": "Cimiez",
-			"website": "http://www.kescardoso.com"
+			"website": "http://www.kescardoso.com",
+			"coordinates": [43.7186366,7.2706853]
 		},
+		
 		{
-			"geometry": {
-		    "type": "Point",
-	        "coordinates":
-	        [
-	          43.6984938,
-	          7.2571126
-        	]
-		},
-		{
-			"category": "Massage",
-			"services": "Shiatsu", "Sound Therapy", "Aromatherapy"
+			"type": "Massage",
 			"name": "Pepita Yoga",
+			"services": "Shiatsu", "Sound Therapy", "Aromatherapy"
 			"address": "Musicien",
-			"website": "http://facebook.com" 
+			"website": "http://facebook.com",
+			"coordinates": [43.6984938,7.2571126]
 		},
 	]
 }
