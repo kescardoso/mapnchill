@@ -5,44 +5,45 @@ var coteAzur = {lat: 43.8691025, lng: 7.2054375};
 
 function activateMapSearch() {
 
-    var markers = [];
-    var mapOptions = {
-  		zoom: 10,
-  		center: coteAzur,
-  		mapTypeId: 'roadmap'
-    }
-    
-    infowindow = new google.maps.InfoWindow();
-    
-    map = new google.maps.Map(document.getElementById('map'), mapOptions);
-	
-  	var defaultBounds = new google.maps.LatLngBounds(
-      new google.maps.LatLng(43.52158150963843, 6.237267333984391),
-      new google.maps.LatLng(44.214609002075285, 8.173607666015641));
-    map.fitBounds(defaultBounds);
+  var markers = [];
+  var mapOptions = {
+		zoom: 10,
+		center: coteAzur,
+		mapTypeId: 'roadmap'
+  }
+  
+  infowindow = new google.maps.InfoWindow();
+  
+  map = new google.maps.Map(document.getElementById('map'), mapOptions);
+  
+  // Define Map Bounds	
+	var defaultBounds = new google.maps.LatLngBounds(
+    new google.maps.LatLng(43.52158150963843, 6.237267333984391),
+    new google.maps.LatLng(44.214609002075285, 8.173607666015641));
+  map.fitBounds(defaultBounds);
         
-    // Create the search box and link it to the UI element.
-    var input = /** @type {HTMLInputElement} */(
-      document.getElementById('search'));
-    map.controls[google.maps.ControlPosition.TOP].push(input);
+  // Create the search box and link it to the UI element.
+  var input = /** @type {HTMLInputElement} */(
+    document.getElementById('search'));
+  map.controls[google.maps.ControlPosition.TOP].push(input);
 
-    var searchBox = new google.maps.places.SearchBox(
+  var searchBox = new google.maps.places.SearchBox(
     /** @type {HTMLInputElement} */(input));
 
-    // [START region_getplaces]
-    // Listen for the event fired: when user selects an item
-    // from the search box, and retrieve matching places for that item on the map.
-    google.maps.event.addListener(searchBox, 'places_changed', function() {
-        var places = searchBox.getPlaces();
+  // [START region_getplaces]
+  // Listen for the event fired: when user selects an item
+  // from the search box, and retrieve matching places for that item on the map.
+  google.maps.event.addListener(searchBox, 'places_changed', function() {
+    var places = searchBox.getPlaces();
 
-            if (places.length == 0) {
-                return;
-            }
-            for (var i = 0, marker; marker = markers[i]; i++) {
-                marker.setMap(null);
-            }
+    if (places.length == 0) {
+      return;
+    }
+    for (var i = 0, marker; marker = markers[i]; i++) {
+      marker.setMap(null);
+    }
     
-    // For each place, get icon, name, and location.
+    // For each place, get the icon, place name, and location.
     markers = [];
     var bounds = new google.maps.LatLngBounds();
     for (var i = 0, place; place = places[i]; i++) {
