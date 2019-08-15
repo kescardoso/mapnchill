@@ -1,7 +1,7 @@
 // Google API:
 // Create map function: activateMapSearch.
 var map;
-var coteAzur = {lat: 43.7763155, lng: 7.1495998};
+var coteAzur = {lat: 43.8691025, lng: 7.2054375};
 
 function activateMapSearch() {
 
@@ -16,10 +16,10 @@ function activateMapSearch() {
     
     map = new google.maps.Map(document.getElementById('map'), mapOptions);
 	
-  // 	var defaultBounds = new google.maps.LatLngBounds(
-  //     new google.maps.LatLng(43.178408976858904, 5.213259467968783),
-  //     new google.maps.LatLng(44.36830282624031, 9.085940132031283));
-  //   map.fitBounds(defaultBounds);
+  	var defaultBounds = new google.maps.LatLngBounds(
+      new google.maps.LatLng(43.52158150963843, 6.237267333984391),
+      new google.maps.LatLng(44.214609002075285, 8.173607666015641));
+    map.fitBounds(defaultBounds);
         
     // Create the search box and link it to the UI element.
     var input = /** @type {HTMLInputElement} */(
