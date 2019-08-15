@@ -1,9 +1,9 @@
 // Google API:
-// Create map function: activateMapSearch.
+// Create map function: activateMap.
 var map;
 var coteAzur = {lat: 43.8691025, lng: 7.2054375};
 
-function activateMapSearch() {
+function activateMap() {
 
   var markers = [];
   var mapOptions = {
@@ -29,6 +29,9 @@ function activateMapSearch() {
 
   var searchBox = new google.maps.places.SearchBox(
     /** @type {HTMLInputElement} */(input));
+    
+  // Load the GeoJSON data onto the map.
+  map.data.loadGeoJson('assets/json/yoga-mass.json');
 
   // [START region_getplaces]
   // Listen for the event fired: when user selects an item
