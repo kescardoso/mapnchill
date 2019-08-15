@@ -1,7 +1,7 @@
 // Google API:
 // Create map function: activateMapSearch.
 var map;
-var coteAzur = {lat: 43.8019903, lng: 6.6057867};
+var coteAzur = {lat: 43.7763155, lng: 7.1495998};
 
 function activateMapSearch() {
 
