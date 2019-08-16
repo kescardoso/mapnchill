@@ -32,31 +32,14 @@ function activateMap() {
     /** @type {HTMLInputElement} */(input));
     
   // Load the GeoJSON data onto the map.
-  map.data.loadGeoJson('assets/json/map.json');
+  map.data.loadGeoJson('assets/json/map.geojson');
   
-  // defines custom icons
-  var icons = {
-    yoga: {
-      icon: 'assets/images/yoga.png'
-    },
-    massage: {
-      icon: 'assets/images/relax.png'
-    }
-  };
-  
-  function addMarker(feature) {
-    var marker = new google.maps.Marker({
-      coords: feature.coordinates,
-      icon: icons[feature.type].icon,
-      map: map
-    });
-  }
-  
-  // adds markers via the features table
-  for (var i = 0, feature; feature = features[i]; i++) {
-    addMarker(feature);
-    addInfoWindow(feature);
-  }
+  map.data.setStyle(feature => {
+    return {
+      icon:feature.getProperty('icon'),
+        scaledSize: new google.maps.Size(64, 64)
+    };
+  });
 
   // [START region_getplaces]
   // Listen for the event fired: when user selects an item
