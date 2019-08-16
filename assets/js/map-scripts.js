@@ -32,7 +32,31 @@ function activateMap() {
     /** @type {HTMLInputElement} */(input));
     
   // Load the GeoJSON data onto the map.
-  map.data.loadGeoJson('assets/json/yoga-mass.json');
+  map.data.loadGeoJson('assets/json/map.json');
+  
+  // defines custom icons
+  var icons = {
+    yoga: {
+      icon: 'assets/images/yoga.png'
+    },
+    massage: {
+      icon: 'assets/images/relax.png'
+    }
+  };
+  
+  function addMarker(feature) {
+    var marker = new google.maps.Marker({
+      coords: feature.coordinates,
+      icon: icons[feature.type].icon,
+      map: map
+    });
+  }
+  
+  // adds markers via the features table
+  for (var i = 0, feature; feature = features[i]; i++) {
+    addMarker(feature);
+    addInfoWindow(feature);
+  }
 
   // [START region_getplaces]
   // Listen for the event fired: when user selects an item
@@ -74,7 +98,7 @@ function activateMap() {
 
     map.fitBounds(bounds);
   });
-  // [END region_getplaces]
+  //[END region_getplaces]
   
   // Bias the SearchBox results towards places that are within the bounds of the
   // current map's viewport.

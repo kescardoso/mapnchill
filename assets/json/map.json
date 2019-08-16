@@ -1,0 +1,95 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    
+		{
+			"geometry": {
+		    	"type": "Point",
+	       		"coordinates": [43.7186366,7.2706853]
+	       	},
+			"type": "Feature",
+     		"properties": {
+				"category": "yoga",
+				"icon": "asstes/images/yoga.png",
+				"name": "Kes Cardoso: Yoga & Sound",
+				"services": "Balanced Hatha Flow, Kundalini, Yin",
+				"website": "http://www.kescardoso.com"
+			}
+		},
+		
+		{
+			"geometry": {
+		    	"type": "Point",
+	       		"coordinates": [43.6227815,7.0463002]
+	       	},
+			"type": "Feature",
+     		"properties": {
+				"category": "yoga",
+				"icon": "asstes/images/yoga.png",
+				"name": "Eva Luna",
+				"services": "Ashtanga, Hatha",
+				"website": "http://facebook.com"
+			}
+		},
+		
+		{
+			"geometry": {
+		    	"type": "Point",
+	       		"coordinates": [43.6984938,7.2571126]
+			},
+			"type": "Feature",
+     		"properties": {
+				"category": "yoga",
+				"icon": "asstes/images/yoga.png",
+				"name": "PepitaYoga",
+				"services": "HotYoga, Kundalini, PowerYoga, Hatha Flow, Yin, AcroYoga, Pilates",
+				"website": "http://facebook.com"
+			}
+		},
+		
+		{	
+			"geometry": {
+		    	"type": "Point",
+	       		"coordinates": [43.6972061,7.2487013]
+			},
+			"type": "Feature",
+     		"properties": {
+				"category": "massage",
+				"icon": "asstes/images/relax.png",
+				"name": "Bodywork",
+				"services": "Shiatsu",
+				"website": "http://facebook.com" 
+			}
+		},
+		
+		{
+			"geometry": {
+		    	"type": "Point",
+	       		"coordinates": [43.7186366,7.2706853]
+			},
+			"type": "Feature",
+     		"properties": {
+				"category": "massage",
+				"icon": "asstes/images/relax.png",
+				"name": "Kes Cardoso",
+				"services": "Sound Therapy, Sound Massage",
+				"website": "http://www.kescardoso.com"
+			}
+		},
+		
+		{
+			"geometry": {
+		    	"type": "Point",
+	       		"coordinates": [43.6984938,7.2571126]
+			},
+			"type": "Feature",
+     		"properties": {
+				"category": "massage",
+				"icon": "asstes/images/relax.png",
+				"name": "Pepita Yoga",
+				"services": "Shiatsu, Sound Therapy, Aromatherapy",
+				"website": "http://facebook.com"
+			}
+		}
+   ]
+}
