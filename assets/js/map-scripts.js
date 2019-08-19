@@ -22,7 +22,7 @@ function activateMap() {
   map.fitBounds(defaultBounds);
   
   // Load the GeoJSON data onto the map.
-  map.data.addGeoJson('assets/json/map.geojson');
+  map.data.addGeoJson('assets/json/map.json');
 			
 	map.data.setStyle(function(feature) {
     return {icon:feature.getProperty('icon')};
