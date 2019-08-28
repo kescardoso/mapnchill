@@ -23,21 +23,6 @@
 </head>
 
 <body>
-    
-    <!-- Alert: Top page CTA for Professionals -->
-    <div class="container-fluid navalert-container">
-        <div class="container-fluid alert-container">
-            <div class="row d-none d-sm-block">
-                <div class="col-12">
-                    <div class="alert alert-for-pro text-center">
-                        <!--<button type="button" class="close" data-dismiss="alert">×</button>-->
-                        Are you a yoga teacher or massage therapist? 
-                        <strong><a href="#">Sign up and start advertising for FREE!</a></strong> (limited offer)
-                    </div>
-                </div>
-            </div>
-        </div>
-    
         <!-- Navbar-->
         <div class="container-fluid nav-container">
             <nav class="navbar navbar-light navbar-expand-lg">
@@ -89,23 +74,16 @@
                 <!-- Jumbotron -->
                 <section class="jumbotron text-center">
                     
-                    <h2 class="jumbotron-header">Find Yoga and Massage in the Côte d'Azur</h2>
+                    <h2 class="jumbotron-header text-uppercase">Yoga + Massage + Côte d'Azur</h2>
                     <p class="jumbotron-text">Map & Chill is a yoga and massage locator:
                     <br>
                     it helps you find the best yoga teachers and massage therapists 
                     <span class="d-none d-md-inline"><br/></span>
-                    so you can enjoy a healthy, relaxing break in the French Riviera! 
+                    so you can enjoy a healthy, relaxing break in the French Riviera. 
                     </p>
-                    <h4 class="cta-jumbo-search">Search now:</h4>
                     
-                    <!-- Google Places search-box input with no map -->
-                    <div class="center-form">
-                        <input 
-                            id="hero-jumbo-search-term" 
-                            type="text" class="search-box-control" 
-                            placeholder=" Find a yoga teacher or massage therapist in the Côte d'Azur"
-                        >
-                    </div>
+                    <!-- Make it a smooth scrolling button -->
+                    <h4 class="cta-jumbo-search text-uppercase mx-auto">scroll down to start</h4>
                     
                 </section>
             </div>
@@ -135,17 +113,76 @@
         </div>
     </div>
     
+    <!-- Google MapsAPI  -->
+    <div class="container-fluid map-container">
+        
+        <!--Google Searchbox -->
+        <div class="row">
+            <div class="col">
+                <div class="map-searchbox d-flex justify-content-left">
+                    <input 
+                        id="search" 
+                        class="controls" 
+                        type="text"  
+                        placeholder=" Search for yoga or massage"
+                    >
+                </div>
+            </div>
+        </div>
+        
+        <!-- Google Map -->
+        <div class="row">
+            <div class="col">
+                <div id="map"></div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <!-- Footer -->
+    <div class="container-fluid footer-container">
+        <footer>
+            <div class="footer text-uppercase text-center">
+                <p>
+                    <a href="" data-toggle="modal" data-target="#modalMailchimp" aria-label="Sign up to our Newsletter on Mailchimp"><i class="footer-social-links fab fa-mailchimp"></i></a>
+                    <a href="http://instagram.com/kescardoso" target="_blank" aria-label="Follow me on Instagram" rel="noopener"><i class="footer-social-links fab fa-instagram"></i></a>
+                    <a href="http://facebook.com/kescardoso" target="_blank" aria-label="Follow me on Facebook" rel="noopener"><i class="footer-social-links fab fa-facebook-square"></i></a>
+                    <a href="" data-toggle="modal" data-target="#modalContactForm" aria-label="Contact"><i class="footer-social-links far fa-envelope"></i></a>
+                </p>
+                <p>©2019 <a href="#" aria-label="Home: Map & Chill">Map & Chill</a> by <a href="http://kescardoso.com" target="_blank" aria-label="Kes Cardoso website">Kes Cardoso</a></p>
+                <p>Powered by Prana & Pixels</p>
+                <p><a href="#" aria-label="Read our terms and conditions">Terms and Conditions</a></p>
+            </div>
+        </footer>
+    </div>
     
     
-    
+
+    <!-- Google Places API: Search Box -->
+    <script>
+        function activateMap() {
+            var input = document.getElementById("search");
+            var autocomplete = new google.maps.places.Autocomplete(input);
+        }
+    </script>
+    <!-- Google API Key -->
+    <script async defer 
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmNn5vKRp_5ZR_NBvqMtN-IWyVJeCafTk&libraries=places&callback=activateMap">
+    </script>
     
     <!-- JQuery -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script type="text/javascript"
+        src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
+    </script>
     
-    <!-- Bootstrap JS -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    
-    <!-- Google Places API -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmNn5vKRp_5ZR_NBvqMtN-IWyVJeCafTk&libraries=places"></script>
+    <!-- Bootstrap-JS -->
+    <script type="text/javascript"
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+
+    <!-- Custom Javascript -->
+    <script type="text/javascript"
+        src="assets/js/scripts.js">
+    </script>
 </body>
 </html>
