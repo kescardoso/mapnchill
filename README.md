@@ -1,6 +1,6 @@
 # Map & Chill <br>Yoga and Massage Locator in the Côte d'Azur
 
- **[View this website on GitHub Pages](https://kescardoso.github.io/.../)**
+ **[View this website on GitHub Pages](https://kescardoso.github.io/ms2-mapnchill/)**
 
 *Map & Chill is a Yoga and Massage Locator in the Côte d'Azur. It helps customers find the best yoga teachers and massage therapists so they can enjoy a healthy, relaxing break in the French Riviera.*
 
@@ -11,3 +11,39 @@ This project has both educational and entrepreneurial goals, and it features my 
 Thanks for appreciating Map & Chill with me :)
 
 [Kes Cardoso](http://www.kescardoso.com)
+
+## Deployment
+
+1. This project was developed and stored in git using Cloud9
+
+2. The project’s source files was regularly pushed to [GitHub repository kescardoso/MS2-mapnchill](https://github.com/kescardoso/MS1-yinsoundsouth)
+
+3. The project’s source file was published from GitHub repository to GitHub pages using GitHub default settings via the `master` branch
+
+4. GitHub Pages was then enabled to publish the site from the `master` branch following this path:
+	1. GitHub repository settings page
+	2. At GitHub Pages Repository box (on Settings) the master branch was selected from the dropdown menu
+	3. Action was saved by clicking the save button
+
+5. The Project’s source file is now published as a site on GitHub Pages at: [Map & Chill](https://kescardoso.github.io/MS2-mapnchill/)
+
+## Credits
+
+### Code
+1. [Fix alert above navbar, from StackOverflow](https://stackoverflow.com/questions/34279103/bootstrap-alert-on-top-of-navbar)
+2.  [Google API tutorial, from I Love Javascript Youtube Channel](https://www.youtube.com/channel/UCblsLrhM8zjRXy7lV2DJlqQ)
+3. [Bootstrap Website Tutorial, from Drew Ryan Youtube Channel](https://www.youtube.com/watch?v=Zn64_IVLO88)
+4. [Google maps uncaught invalid value error, by StackOverflow](https://stackoverflow.com/questions/38369151/google-maps-uncaught-invalidvalueerror-initialise-is-not-a-function)
+5. [Google maps search box outside map, from StackOverflow](https://stackoverflow.com/questions/20921378/google-maps-search-box-outside-map/20923791)
+6. [Google API Javascript, from CodePen](https://codepen.io/JaminQuimby/pres/vOXQrL)
+7. [How to Use LatLngBounds in Google Maps, from WebUcator](https://www.webucator.com/how-to/how-use-latlngbounds-google-maps.cfm)
+
+### Media
+- [Feteme Fuentes, Stock-free Photo](https://unsplash.com/photos/PBdT_-f3uXc)
+- [Kaylee Garrett, Stock-free Photo](https://unsplash.com/photos/GaprWyIw66o)
+- [Relax Icon](https://www.flaticon.com/authors/monkik)
+- [Yoga Icon](https://www.flaticon.com/authors/monkik)
+
+### Acknowledgements
+I received inspiration for this project from:
+-  [Go & Dance](https://www.goandance.com/en/)
