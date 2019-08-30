@@ -1,9 +1,9 @@
-// Google API:
+// Google API
 
 var map;
 var coteAzur = {lat: 43.8691025, lng: 7.2054375};
 
-// Create map.
+// Create map
 function activateMap() {
 
   var markers = [];
