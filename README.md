@@ -30,19 +30,14 @@ Thanks for appreciating Map & Chill with me :)
 ## Credits
 
 ### Code
-1. [Fix alert above navbar, from StackOverflow](https://stackoverflow.com/questions/34279103/bootstrap-alert-on-top-of-navbar)
-2.  [Google API tutorial, from I Love Javascript Youtube Channel](https://www.youtube.com/channel/UCblsLrhM8zjRXy7lV2DJlqQ)
-3. [Bootstrap Website Tutorial, from Drew Ryan Youtube Channel](https://www.youtube.com/watch?v=Zn64_IVLO88)
-4. [Google maps uncaught invalid value error, by StackOverflow](https://stackoverflow.com/questions/38369151/google-maps-uncaught-invalidvalueerror-initialise-is-not-a-function)
-5. [Google maps search box outside map, from StackOverflow](https://stackoverflow.com/questions/20921378/google-maps-search-box-outside-map/20923791)
-6. [Google API Javascript, from CodePen](https://codepen.io/JaminQuimby/pres/vOXQrL)
-7. [How to Use LatLngBounds in Google Maps, from WebUcator](https://www.webucator.com/how-to/how-use-latlngbounds-google-maps.cfm)
+1. [Google API tutorial, from I Love Javascript Youtube Channel](https://www.youtube.com/channel/UCblsLrhM8zjRXy7lV2DJlqQ)
+2. [Google Places Search Box Documentation, from Google](https://developers.google.com/maps/documentation/javascript/examples/places-searchbox)
+3. [Google Maps with multiple markers and infoboxes, from CodePen](https://codepen.io/olivertaylor/pen/BWWNeb?editors=0010#0)
 
 ### Media
-- [Feteme Fuentes, Stock-free Photo](https://unsplash.com/photos/PBdT_-f3uXc)
-- [Kaylee Garrett, Stock-free Photo](https://unsplash.com/photos/GaprWyIw66o)
-- [Relax Icon](https://www.flaticon.com/authors/monkik)
-- [Yoga Icon](https://www.flaticon.com/authors/monkik)
+- [Jens Kreuter](https://unsplash.com/photos/PfK35Iw1JAo)
+- [Yoga Icon](https://www.flaticon.com/authors/freepik)
+- [Massage Icon](https://www.flaticon.com/authors/freepik)
 
 ### Acknowledgements
 I received inspiration for this project from:

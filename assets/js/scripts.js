@@ -63,7 +63,7 @@ var businesses = [
   },
   {
     icon: 'massage',
-    content: '<div id="content"> <strong> <h6><a target="_blank" href="https://enso.fr/">Riviera Massage by Shona Marrs</a></h6> <p>Deep Tissue, Body Sculpting, Swedish, Sports, Acupressure, Thai,<br/>Skin rolling and manual kneading, Passive joint and sensory repatterning.</p> </strong> </div>',
+    content: '<div id="content"> <strong> <h6><a target="_blank" href="https://rivieramassage.com/">Riviera Massage by Shona Marrs</a></h6> <p>Deep Tissue, Body Sculpting, Swedish, Sports, Acupressure, Thai,<br/>Skin rolling and manual kneading, Passive joint and sensory repatterning.</p> </strong> </div>',
     position: { lat: 43.5810279, lng: 7.1201423 }
   },
 ];
