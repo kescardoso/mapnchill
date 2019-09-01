@@ -1,7 +1,7 @@
 //Assign global variables.
 var google;
 var map;
-var coteAzur = {lat: 43.8691025, lng: 7.2054375};
+var coteAzur = {lat: 43.817309, lng: 7.1933086};
 var mapOptions = {
 	zoom: 10,
 	center: coteAzur,
@@ -24,37 +24,47 @@ var icons = {
 // Code Source: https://codepen.io/olivertaylor/pen/BWWNeb?editors=0010#0
 var businesses = [
   {
-    type: 'yoga',
     icon: 'yoga',
-    title: 'Kes Cardoso',
-    content: 'http://www.kescardoso.com',
-    position: 
-    {
-      lat: 43.7186366,
-      lng: 7.2706853
-    }
+    content: '<div id="content"> <strong> <h6><a target="_blank" href="http://www.kescardoso.com">KES CARDOSO : Yoga & Sound</a></h6> <p>Yin-Yang Flow, Hatha Flow, Kundalini Yoga, Yin Yoga Restorative.<br/>Sound Healing Therapy, Sonic Massage.</p> </strong> </div>',
+    position: { lat: 43.7186366, lng: 7.2706853 }
   }, 
   {
-    type: 'yoga',
     icon: 'yoga',
-    title: 'Eva Luna',
-    content: 'http://facebook.com',
-    position: 
-    {
-      lat: 43.6227815,
-      lng: 7.0463002
-    }
+    content: '<div id="content"> <strong> <h6><a target="_blank" href="http://www.pepitayoga.com">Pepita Yoga</a></h6> <p>Hatha Flow, Acro Yoga, Hot Yoga, Power Yoga, Yin Yoga, Pilates.</p> </strong> </div>',
+    position: { lat: 43.6984938, lng: 7.2571126 }
   },
   {
-    type: 'yoga',
     icon: 'yoga',
-    title: 'PepitaYoga',
-    content: 'http://www.pepitayoga.com',
-    position:
-    {
-      lat: 43.6984938,
-      lng: 7.2571126
-    }
+    content: '<div id="content"> <strong> <h6><a target="_blank" href="https://enso.fr/">Enso Yoga Massena</a></h6> <p>Hatha Yoga, Iyengar, Ashtanga, Vinyasa, Restorative, Pre-natal.</p> </strong> </div>',
+    position: { lat: 43.6975126, lng: 7.2654138 }
+  },
+  {
+    icon: 'yoga',
+    content: '<div id="content"> <strong> <h6><a target="_blank" href="https://enso.fr/">Enso Yoga Valbonne</a></h6> <p>Hatha Yoga, Iyengar, Ashtanga, Vinyasa, Restorative, Pre-natal.</p> </strong> </div>',
+    position: { lat: 43.6227815, lng: 7.0463002 }
+  },
+  {
+    icon: 'yoga',
+    content: '<div id="content"> <strong> <h6><a target="_blank" href="http://www.rivierayoga.fr">Riviera Yoga</a></h6> <p>Hatha Yoga, Ashtanga & Vinyasa Yoga, Restorative, Pre/Post-natal.</p> </strong> </div>',
+    position: { lat: 43.6997179, lng: 7.2794096 }
+  },
+  {
+    icon: 'yoga',
+    content: '<div id="content"> <strong> <h6><a target="_blank" href="https://www.facebook.com/peaceyoganice/">Thousand Bridges</a></h6> <p>Bikram Yoga, Kundalini Yoga, Yin Yoga Restorative.<br/>Sound Healing, Nature Immersion and Retreats.</p> </strong> </div>',
+    position: { lat: 44.05472, lng: 7.1189998 }
+  },
+  
+  
+  
+  {
+    icon: 'massage',
+    content: '<div id="content"> <strong> <h6><a target="_blank" href="http://www.bodywork.com">BodyWork by Andrea Daumas</a></h6> <p>Relaxing Massage, Reenergising/Detox Massage, Deep Tissue Massage, Thai Massage, Foot Reflexology.</p> </strong> </div>',
+    position: { lat: 43.697206, lng: 7.2552673 }
+  },
+  {
+    icon: 'massage',
+    content: '<div id="content"> <strong> <h6><a target="_blank" href="https://enso.fr/">Riviera Massage by Shona Marrs</a></h6> <p>Deep Tissue, Body Sculpting, Swedish, Sports, Acupressure, Thai,<br/>Skin rolling and manual kneading, Passive joint and sensory repatterning.</p> </strong> </div>',
+    position: { lat: 43.5810279, lng: 7.1201423 }
   },
 ];
 
