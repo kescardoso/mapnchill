@@ -1,4 +1,4 @@
-//Assign global variables
+//Assign global variables.
 var google;
 var map;
 var coteAzur = {lat: 43.8691025, lng: 7.2054375};
@@ -8,7 +8,7 @@ var mapOptions = {
 	mapTypeId: 'roadmap'
 };
 
-// Define custom icons for map markers
+// Define custom icons for map markers.
 var icons = { 
   yoga: { 
     icon: 'http://www.kescardoso.com/wp-content/uploads/2019/09/yoga-icon-32px.png'
@@ -19,7 +19,7 @@ var icons = {
   }
 };
 
-//DATA: Add yoga and massage businesses to map
+//DATA: Add yoga and massage businesses to map.
 var businesses = [
   {
     type: 'yoga',
@@ -56,10 +56,10 @@ var businesses = [
   },
 ];
 
-// Create map
+// Create map.
 function activateMap() {
   
-  // // Load GeoJson data from map.json
+  // // Load GeoJson data from map.json.
   // function loadJSON(callback) {   
   //   var xobj = new XMLHttpRequest();
   //       xobj.overrideMimeType("application/json");
@@ -78,10 +78,10 @@ function activateMap() {
   //     map.data.addGeoJson(geoJSON );
   //   });
   
-  //Load Map  
+  //Load Map.
   map = new google.maps.Map(document.getElementById('map'), mapOptions);
   
-  //Add markers and display infowindows on mouseover
+  //Add markers and display infowindows on mouseover.
   var InfoWindows = new google.maps.InfoWindow({});
 	
 	businesses.forEach(function(business) {	
@@ -96,6 +96,17 @@ function activateMap() {
 		  InfoWindows.setContent(business.content);
 		});
 	});
+	
+	// Create the search box and link it to the UI element.
+	// Add search box to map, using the Google Place Autocomplete feature:
+	// People can enter geographical searches, and the search box will return a
+  // pick list containing a mix of places and predicted search terms.
+
+  var input = document.getElementById('search');
+  var searchBox = new google.maps.places.SearchBox(input);
+  map.controls[google.maps.ControlPosition.TOP].push(input);
+  
+  
 
 }
   
