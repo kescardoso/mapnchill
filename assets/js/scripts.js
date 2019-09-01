@@ -11,15 +11,15 @@ var mapOptions = {
 // Define custom icons for map markers
 var icons = { 
   yoga: { 
-    icon: 'https://www.dropbox.com/s/2xypunn2g7t72gy/markerMassage.png'
+    icon: 'http://www.kescardoso.com/wp-content/uploads/2019/09/yoga-icon-32px.png'
   },
   massage:
   {
-    icon: 'https://www.dropbox.com/s/9c40fslmwf24y2e/markerYoga.png'
+    icon: 'http://www.kescardoso.com/wp-content/uploads/2019/09/massage-icon-32px.png'
   }
 };
 
-//Add yoga and massage businesses to map
+//DATA: Add yoga and massage businesses to map
 var businesses = [
   {
     type: 'yoga',
