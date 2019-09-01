@@ -27,12 +27,12 @@ Thanks for appreciating Map & Chill with me :)
 
 5. The Project’s source file is now published as a site on GitHub Pages at: [Map & Chill](https://kescardoso.github.io/MS2-mapnchill/)
 
-## Credits
-
 ### Code
 1. [Google API tutorial, from I Love Javascript Youtube Channel](https://www.youtube.com/channel/UCblsLrhM8zjRXy7lV2DJlqQ)
 2. [Google Places Search Box Documentation, from Google](https://developers.google.com/maps/documentation/javascript/examples/places-searchbox)
 3. [Google Maps with multiple markers and infoboxes, from CodePen](https://codepen.io/olivertaylor/pen/BWWNeb?editors=0010#0)
+4. [Google Maps Controls, from Google](https://developers.google.com/maps/documentation/javascript/controls)
+5. [Adding_Controls_to_the_Map, from Google](https://developers.google.com/maps/documentation/javascript/controls#Adding_Controls_to_the_Map)
 
 ### Media
 - [Jens Kreuter](https://unsplash.com/photos/PfK35Iw1JAo)

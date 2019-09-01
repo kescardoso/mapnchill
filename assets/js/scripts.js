@@ -1,11 +1,20 @@
-//Assign global variables.
+// Assign global variables.
 var google;
 var map;
 var coteAzur = {lat: 43.817309, lng: 7.1933086};
+// Map Options and Map Controls.
+// Code Source: https://developers.google.com/maps/documentation/javascript/controls
+// https://developers.google.com/maps/documentation/javascript/controls#Adding_Controls_to_the_Map
 var mapOptions = {
 	zoom: 10,
 	center: coteAzur,
-	mapTypeId: 'roadmap'
+	mapTypeId: 'roadmap',
+	zoomControl: true,
+  mapTypeControl: false,
+  scaleControl: true,
+  streetViewControl: false,
+  rotateControl: false,
+  fullscreenControl: false
 };
 
 // Define custom icons for map markers.
@@ -20,7 +29,7 @@ var icons = {
   }
 };
 
-//DATA: Add yoga and massage businesses to map.
+// DATA: Add yoga and massage businesses to map.
 // Code Source: https://codepen.io/olivertaylor/pen/BWWNeb?editors=0010#0
 var businesses = [
   {
@@ -53,7 +62,6 @@ var businesses = [
     content: '<div id="content"> <strong> <h6><a target="_blank" href="https://www.facebook.com/peaceyoganice/">Thousand Bridges</a></h6> <p>Bikram Yoga, Kundalini Yoga, Yin Yoga Restorative.<br/>Sound Healing, Nature Immersion and Retreats.</p> </strong> </div>',
     position: { lat: 44.05472, lng: 7.1189998 }
   },
-  
   
   
   {
@@ -90,7 +98,7 @@ function activateMap() {
   //     map.data.addGeoJson(geoJSON );
   //   });
   
-  //Load Map.
+  // Load Map.
   map = new google.maps.Map(document.getElementById('map'), mapOptions);
   
   //Add markers and display infowindows on mouseover.
