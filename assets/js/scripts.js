@@ -85,21 +85,7 @@ var icons = {
 // GOOGLE MAPS API INSTALLATION.
 // Create map.
 function activateMap() {
-  
-  // // Load GeoJson data from map.json.
-  // // Tutorial from: https://codepen.io/KryptoniteDove/post/load-json-file-locally-using-pure-javascript
-  // // Code from: https://stackoverflow.com/questions/39483209/how-to-use-google-map-data-loadgeojson-with-a-json-string
-  // var xobj = new XMLHttpRequest();
-  //     xobj.overrideMimeType("application/json");
-  // xobj.open('GET', 'assets/json/map.json', true);
-  // xobj.onreadystatechange = function () {
-  //     if (xobj.readyState == 4 && xobj.status == "200") {
-  //       var geoJSON = JSON.parse(this.responseText);
-  //       map.data.addGeoJson(geoJSON );
-  // };
-  // xobj.send(null);
-  
-  
+
   // Load Map.
   map = new google.maps.Map(document.getElementById('map'), mapOptions);
   
