@@ -1,37 +1,8 @@
-// Assign global variables.
-var google;
-var map;
-var coteAzur = {lat: 43.817309, lng: 7.1933086};
-// Assign custom map options and map controls.
-// Tutorial from: https://developers.google.com/maps/documentation/javascript/controls
-// Tutorial from: https://developers.google.com/maps/documentation/javascript/controls#Adding_Controls_to_the_Map
-var mapOptions = {
-	zoom: 10,
-	center: coteAzur,
-	mapTypeId: 'roadmap',
-	zoomControl: true,
-  mapTypeControl: false,
-  scaleControl: true,
-  streetViewControl: false,
-  rotateControl: false,
-  fullscreenControl: false
-};
-
-// Define custom icons for map markers.
-// Code from: https://codepen.io/olivertaylor/pen/BWWNeb?editors=0010#0
-var icons = { 
-  yoga: { 
-    icon: 'http://www.kescardoso.com/wp-content/uploads/2019/09/yoga-icon-32px.png'
-  },
-  massage:
-  {
-    icon: 'http://www.kescardoso.com/wp-content/uploads/2019/09/massage-icon-32px.png'
-  }
-};
-
-// DATA: Add yoga and massage businesses to map.
+// DATA: yoga and massage businesses to be added to map.
 // Code from: https://codepen.io/olivertaylor/pen/BWWNeb?editors=0010#0
 var features = [
+  
+  //YOGA BUSINESSES:
   {
     icon: 'yoga',
     content: '<div id="content"> <strong> <h6><a target="_blank" href="http://www.kescardoso.com">KES CARDOSO : Yoga & Sound</a></h6> <p>Yin-Yang Flow, Hatha Flow, Kundalini Yoga, Yin Yoga Restorative.<br/>Sound Healing Therapy, Sonic Massage.</p> </strong> </div>',
@@ -63,7 +34,7 @@ var features = [
     position: { lat: 44.05472, lng: 7.1189998 }
   },
   
-  
+  //MASSAGE BUSINESSES:
   {
     icon: 'massage',
     content: '<div id="content"> <strong> <h6><a target="_blank" href="http://www.bodywork.com">BodyWork by Andrea Daumas</a></h6> <p>Relaxing Massage, Reenergising/Detox Massage, Deep Tissue Massage, Thai Massage, Foot Reflexology.</p> </strong> </div>',
@@ -76,6 +47,42 @@ var features = [
   },
 ];
 
+
+// GLOBAL SETTINGS
+// Define variables.
+var google;
+var map;
+
+// Define custom map options.
+// Tutorial from: https://developers.google.com/maps/documentation/javascript/controls
+// Tutorial from: https://developers.google.com/maps/documentation/javascript/controls#Adding_Controls_to_the_Map
+var coteAzur = {lat: 43.817309, lng: 7.1933086};
+var mapOptions = {
+	zoom: 10,
+	center: coteAzur,
+	mapTypeId: 'roadmap',
+	zoomControl: true,
+  mapTypeControl: false,
+  scaleControl: true,
+  streetViewControl: false,
+  rotateControl: false,
+  fullscreenControl: false
+};
+
+// Define custom icons for map markers.
+// Code from: https://codepen.io/olivertaylor/pen/BWWNeb?editors=0010#0
+var icons = { 
+  yoga: { 
+    icon: 'http://www.kescardoso.com/wp-content/uploads/2019/09/yoga-icon-32px.png'
+  },
+  massage:
+  {
+    icon: 'http://www.kescardoso.com/wp-content/uploads/2019/09/massage-icon-32px.png'
+  }
+};
+
+
+// GOOGLE MAPS API INSTALLATION.
 // Create map.
 function activateMap() {
   
@@ -92,8 +99,10 @@ function activateMap() {
   // };
   // xobj.send(null);
   
+  
   // Load Map.
   map = new google.maps.Map(document.getElementById('map'), mapOptions);
+  
   
   // Add markers and display infowindows on mouseover.
   // Code from: https://codepen.io/olivertaylor/pen/BWWNeb?editors=0010#0
@@ -106,18 +115,17 @@ function activateMap() {
 		  icon: icons[business.icon].icon,
 		  title: business.title
 		});
-		marker.addListener('mouseover', function() {
+		marker.addListener('click', function() {
 		  InfoWindows.open(map, this);
 		  InfoWindows.setContent(business.content);
 		});
 	});
 	
-	// Add search box to map, using the Google Place Autocomplete feature:
-	// People can enter geographical searches, and the search box will return a
+	
+	// Add search and link it to the UI element using the Google Place Autocomplete feature:
+	// people can enter geographical searches, and the search box will return a
   // pick list containing a mix of places and predicted search terms.
   // Tutorial from: https://developers.google.com/maps/documentation/javascript/examples/places-searchbox
-  
-  // Create the search box and link it to the UI element.
   var input = document.getElementById('search');
   var searchBox = new google.maps.places.SearchBox(input);
   map.controls[google.maps.ControlPosition.TOP].push(input);
@@ -176,6 +184,7 @@ function activateMap() {
   });
 
 }
+  
   
 // Call the function and display the map on the browser.
 google.maps.event.addDomListener(window, 'load', activateMap);

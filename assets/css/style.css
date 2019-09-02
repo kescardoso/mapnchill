@@ -1,11 +1,7 @@
-html {
-  scroll-behavior: smooth;
-}
-
 body {
-    font-family: "Darker Grotesque", sans-serif;
-    font-size: 20px;
-    letter-spacing: 2px;
+    font-family: "Lato", sans-serif;
+    letter-spacing: .1em;
+    font-weight: 300;
 }
 
 /*--------------------------------------------------------------------> Links */
@@ -22,113 +18,11 @@ a:active:focus {
     color: #000;
 }
 
-/*-----------------------------------------------------------------> Headings */
-
-h1, h2, h3, h4 {
-    font-family: 
-    color:;
-    font-weight:;
-    letter-spacing:;
-}
-
-h1 {
-    font-size: px;
-    line-height: px;
-    margin-top: px;
-    margin-bottom: px;
-}
-    
-h2 {
-    font-size: px;
-    line-height: px;
-    margin-top: px;
-    margin-bottom: px;
-}
-
-h3 {
-    font-size: px;
-    line-height: px;
-    margin-top: px;
-    margin-bottom: px;
-}
-
-h4 {
-    font-size: px;
-    line-height: px;
-    margin-top: px;
-    margin-bottom: px;
-}
-
-/*------------------------------------------------------------------> Buttons */
-
-.btn-nav-pro-sign {
-    color: #fff;
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    border-radius: 24px;
-    width: 170px;
-    padding: 6px 0;
-    background-color: #1fccbc;
-}
-
-.btn-nav-pro-sign:hover,
-.btn-nav-pro-sign:active,
-.btn-nav-pro-sign:focus,
-.btn-nav-pro-sign:active:focus {
-    color: #fff;
-    background-color: #1aaa9d;
-}
-
-/*--------------------------------------------------------------------> Alert */
-
-.navalert-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-left: 0;
-    padding-right: 0;
-    z-index: 1;
-}
-
-.alert-container {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.alert.alert-for-pro {
-  margin-bottom: 0;
-  border-radius: 0;
-  padding: 4px 8px;
-  background-color: #eefcfb;
-}
-
-/*-------------------------------------------------------------------> Navbar */
-
-.navbar {
-    padding: 3px 4px 2px 6px;
-    background-color: #fbd9ce;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-}
-
-.nav-container {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.navbar .navbar-toggler {
-    border: 0!important;
-}
-
 /*----------------------------------------------------------> Hero + Call Out */
 
 .hero-container {
     height: 100vh;
-    background: url("../images/yogaHat.jpg") no-repeat center center fixed;
+    background: url("../images/HeroBeachHat.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -143,18 +37,6 @@ h4 {
     background-color: transparent;
 }
 
-.jumbotron-text {
-    font-size: 24px;
-}
-
-.cta-jumbo-search {
-    background-color: rgba(251, 217, 206, 0.8);
-    width: 40%;
-    padding: 3px 1px 6px 1px;
-    border-radius: 14px;
-    font-size: 90%;
-}
-
 /*------------------------------------------------> Google Map and Search Box */
 
 #search {
@@ -162,6 +44,7 @@ h4 {
     letter-spacing: 1px;
     text-align: center;
     font-family: "Montserrat", sans-serif;
+    font-weight: 300;
     font-size: 14px;
 }
 
@@ -182,32 +65,4 @@ h4 {
     margin: 0px;
     padding: 0px;
 }
-
-/*---------------------------------------------------------------> Round Logo */
-
-.round-logo {
-    margin-top: -72px;
-}
-
-/*-----------------------------------------------------------> Parallax Image */
-
-.parallax-container {
-    height: 80vh;
-    width: 100%;
-    background: url(../images/groupBeach.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-    margin-top: -80px;
-}
-
-/*---------------------------------------------------------------> ... */
 
