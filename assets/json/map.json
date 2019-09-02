@@ -1,6 +1,6 @@
 {
-  "type": "FeatureCollection",
-  "features": [
+	"type": "FeatureCollection",
+	"features": [
     
 		{
 			"geometry": {
@@ -12,8 +12,8 @@
 			"type": "Feature",
      		"properties": {
 				"category": "yoga",
-				"name": "Kes Cardoso: Yoga & Sound",
-				"services": "Balanced Hatha Flow, Kundalini, Yin",
+				"name": "KES CARDOSO : Yoga & Sound",
+				"services": "Yin-Yang Flow, Hatha Flow, Kundalini Yoga, Yin Yoga Restorative, Sound Healing Therapy, Sonic Massage.",
 				"website": "http://www.kescardoso.com"
 			}
 		},
@@ -77,7 +77,7 @@
      		"properties": {
 				"category": "massage",
 				"name": "Kes Cardoso",
-				"services": "Sound Therapy, Sound Massage",
+				"services": "Sound Therapy, Sonic Massage",
 				"website": "http://www.kescardoso.com"
 			}
 		},
