@@ -12,6 +12,7 @@
 			"type": "Feature",
      		"properties": {
 				"category": "yoga",
+				"icon": "assets/images/yoga-icon.png",
 				"name": "KES CARDOSO : Yoga & Sound",
 				"services": "Yin-Yang Flow, Hatha Flow, Kundalini Yoga, Yin Yoga Restorative, Sound Healing Therapy, Sonic Massage.",
 				"website": "http://www.kescardoso.com"
@@ -28,6 +29,7 @@
 			"type": "Feature",
      		"properties": {
 				"category": "yoga",
+				"icon": "assets/images/yoga-icon.png",
 				"name": "Eva Luna",
 				"services": "Ashtanga, Hatha",
 				"website": "http://facebook.com"
@@ -44,6 +46,7 @@
 			"type": "Feature",
      		"properties": {
 				"category": "yoga",
+				"icon": "assets/images/yoga-icon.png",
 				"name": "PepitaYoga",
 				"services": "HotYoga, Kundalini, PowerYoga, Hatha Flow, Yin, AcroYoga, Pilates",
 				"website": "http://facebook.com"
@@ -60,6 +63,7 @@
 			"type": "Feature",
      		"properties": {
 				"category": "massage",
+				"icon": "assets/images/massage-icon.png",
 				"name": "Bodywork",
 				"services": "Shiatsu",
 				"website": "http://facebook.com" 
@@ -76,6 +80,7 @@
 			"type": "Feature",
      		"properties": {
 				"category": "massage",
+				"icon": "assets/images/massage-icon.png",
 				"name": "Kes Cardoso",
 				"services": "Sound Therapy, Sonic Massage",
 				"website": "http://www.kescardoso.com"
@@ -92,6 +97,7 @@
 			"type": "Feature",
      		"properties": {
 				"category": "massage",
+				"icon": "assets/images/massage-icon.png",
 				"name": "Pepita Yoga",
 				"services": "Shiatsu, Sound Therapy, Aromatherapy",
 				"website": "http://facebook.com"
