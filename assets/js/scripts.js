@@ -3,9 +3,9 @@ var google;
 var map;
 var features;
 var coteAzur = {lat: 43.817309, lng: 7.1933086};
-// Map Options and Map Controls.
-// Code Source: https://developers.google.com/maps/documentation/javascript/controls
-// https://developers.google.com/maps/documentation/javascript/controls#Adding_Controls_to_the_Map
+// Assign custom map options and map controls.
+// Tutorial from: https://developers.google.com/maps/documentation/javascript/controls
+// Tutorial from: https://developers.google.com/maps/documentation/javascript/controls#Adding_Controls_to_the_Map
 var mapOptions = {
 	zoom: 10,
 	center: coteAzur,
@@ -19,7 +19,7 @@ var mapOptions = {
 };
 
 // Define custom icons for map markers.
-// Code Source: https://codepen.io/olivertaylor/pen/BWWNeb?editors=0010#0
+// Code from: https://codepen.io/olivertaylor/pen/BWWNeb?editors=0010#0
 var icons = { 
   yoga: { 
     icon: 'http://www.kescardoso.com/wp-content/uploads/2019/09/yoga-icon-32px.png'
@@ -31,7 +31,7 @@ var icons = {
 };
 
 // // DATA: Add yoga and massage businesses to map.
-// // Code Source: https://codepen.io/olivertaylor/pen/BWWNeb?editors=0010#0
+// // Code from: https://codepen.io/olivertaylor/pen/BWWNeb?editors=0010#0
 // var features = [
 //   {
 //     icon: 'yoga',
@@ -81,8 +81,8 @@ var icons = {
 function activateMap() {
   
   // Load GeoJson data from map.json.
-  // Code Tutorial: https://codepen.io/KryptoniteDove/post/load-json-file-locally-using-pure-javascript
-  // Code Source: https://stackoverflow.com/questions/39483209/how-to-use-google-map-data-loadgeojson-with-a-json-string
+  // Tutorial from: https://codepen.io/KryptoniteDove/post/load-json-file-locally-using-pure-javascript
+  // Code from: https://stackoverflow.com/questions/39483209/how-to-use-google-map-data-loadgeojson-with-a-json-string
   var xobj = new XMLHttpRequest();
       xobj.overrideMimeType("application/json");
   xobj.open('GET', 'assets/json/map.json', true);
@@ -100,7 +100,7 @@ function activateMap() {
   map = new google.maps.Map(document.getElementById('map'), mapOptions);
   
   // Add markers and display infowindows on mouseover.
-  // Code Source: https://codepen.io/olivertaylor/pen/BWWNeb?editors=0010#0
+  // Code from: https://codepen.io/olivertaylor/pen/BWWNeb?editors=0010#0
   var InfoWindows = new google.maps.InfoWindow({});
 	
 	features.forEach(function(business) {	
@@ -120,7 +120,7 @@ function activateMap() {
 	// Add search box to map, using the Google Place Autocomplete feature:
 	// People can enter geographical searches, and the search box will return a
   // pick list containing a mix of places and predicted search terms.
-  // Code Tutotial: https://developers.google.com/maps/documentation/javascript/examples/places-searchbox
+  // Tutorial from: https://developers.google.com/maps/documentation/javascript/examples/places-searchbox
   
   // Create the search box and link it to the UI element.
   var input = document.getElementById('search');
@@ -133,8 +133,7 @@ function activateMap() {
   });
   
   var markers = [];
-  // Listen for the event fired when the user selects a prediction and retrieve
-  // more details for that place.
+  // Listen for the event fired when the user selects a prediction and retrieve more details for that place.
   searchBox.addListener('places_changed', function() {
     var places = searchBox.getPlaces();
 
