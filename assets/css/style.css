@@ -66,3 +66,9 @@ a:active:focus {
     padding: 0px;
 }
 
+#info-content {
+    letter-spacing: .2em;
+    line-height: 22px;
+    width: 90%;
+}
+

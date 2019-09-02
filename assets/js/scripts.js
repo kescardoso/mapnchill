@@ -5,46 +5,57 @@ var features = [
   //YOGA BUSINESSES:
   {
     icon: 'yoga',
-    content: '<div id="content"> <strong> <h6><a target="_blank" href="http://www.kescardoso.com">KES CARDOSO : Yoga & Sound</a></h6> <p>Yin-Yang Flow, Hatha Flow, Kundalini Yoga, Yin Yoga Restorative.<br/>Sound Healing Therapy, Sonic Massage.</p> </strong> </div>',
-    position: { lat: 43.7186366, lng: 7.2706853 }
+    content: '<div id="info-content"> <h6><a target="_blank" href="http://www.kescardoso.com">KES CARDOSO : Yoga & Sound <i class="fa fa-external-link-alt"></i></a></h6> <p><strong>Yoga:</strong> Yin-Yang Balanced Flow, Hatha Yoga Flow, Kundalini Yoga, Yin Yoga Restorative.<br/><br/><strong>Massage:</strong> Sound Healing Therapy, Sonic Massage.</p> </div>',
+    position: { lat: 43.71875279296885, lng: 7.2729331254959115 }
   }, 
   {
     icon: 'yoga',
-    content: '<div id="content"> <strong> <h6><a target="_blank" href="http://www.pepitayoga.com">Pepita Yoga</a></h6> <p>Hatha Flow, Acro Yoga, Hot Yoga, Power Yoga, Yin Yoga, Pilates.</p> </strong> </div>',
-    position: { lat: 43.6984938, lng: 7.2571126 }
+    content: '<div id="info-content"> <h6><a target="_blank" href="http://www.pepitayoga.com">Pepita Yoga</a></h6> <p>Hatha Flow, Acro Yoga, Hot Yoga, Power Yoga, Yin Yoga, Pilates.</p> </div>',
+    position: { lat: 43.69852262776876, lng: 7.2591894865036 }
   },
   {
     icon: 'yoga',
-    content: '<div id="content"> <strong> <h6><a target="_blank" href="https://enso.fr/">Enso Yoga Massena</a></h6> <p>Hatha Yoga, Iyengar, Ashtanga, Vinyasa, Restorative, Pre-natal.</p> </strong> </div>',
-    position: { lat: 43.6975126, lng: 7.2654138 }
+    content: '<div id="info-content"> <h6><a target="_blank" href="https://enso.fr/">Enso Yoga Massena</a></h6> <p>Hatha Yoga, Iyengar, Ashtanga, Vinyasa, Restorative, Pre-natal.</p> </div>',
+    position: { lat: 43.69755689999653, lng: 7.2676920890808105 }
   },
   {
     icon: 'yoga',
-    content: '<div id="content"> <strong> <h6><a target="_blank" href="https://enso.fr/">Enso Yoga Valbonne</a></h6> <p>Hatha Yoga, Iyengar, Ashtanga, Vinyasa, Restorative, Pre-natal.</p> </strong> </div>',
-    position: { lat: 43.6227815, lng: 7.0463002 }
+    content: '<div id="info-content"> <h6><a target="_blank" href="https://enso.fr/">Enso Yoga Valbonne</a></h6> <p>Hatha Yoga, Iyengar, Ashtanga, Vinyasa, Restorative, Pre-natal.</p> </div>',
+    position: { lat: 43.62272781889663, lng: 7.04847514629364 }
   },
   {
     icon: 'yoga',
-    content: '<div id="content"> <strong> <h6><a target="_blank" href="http://www.rivierayoga.fr">Riviera Yoga</a></h6> <p>Hatha Yoga, Ashtanga & Vinyasa Yoga, Restorative, Pre/Post-natal.</p> </strong> </div>',
-    position: { lat: 43.6997179, lng: 7.2794096 }
+    content: '<div id="info-content"> <h6><a target="_blank" href="http://www.rivierayoga.fr">Riviera Yoga</a></h6> <p>Hatha Yoga, Ashtanga & Vinyasa Yoga, Restorative, Pre/Post-natal.</p> </div>',
+    position: { lat: 43.69970552613459, lng: 7.2816047072410575 }
   },
   {
     icon: 'yoga',
-    content: '<div id="content"> <strong> <h6><a target="_blank" href="https://www.facebook.com/peaceyoganice/">Thousand Bridges</a></h6> <p>Bikram Yoga, Kundalini Yoga, Yin Yoga Restorative.<br/>Sound Healing, Nature Immersion and Retreats.</p> </strong> </div>',
-    position: { lat: 44.05472, lng: 7.1189998 }
+    content: '<div id="info-content"> <h6><a target="_blank" href="https://www.facebook.com/peaceyoganice/">Thousand Bridges (La Passarelle)</a></h6> <p>Bikram Yoga, Kundalini Yoga, Yin Yoga Restorative.<br/>Sound Healing, Nature Immersion and Retreats.</p> </div>',
+    position: { lat: 44.077041901917, lng: 7.121543884277344 }
+  },
+  {
+    icon: 'yoga',
+    content: '<div id="info-content"> <h6><a target="_blank" href="https://tigre-yoga.com/en/capsule/le-tigre-monte-carlo/">Le Tigre Monte Carlo</a></h6> <p>Hatha & Vinyasa Flow, Kundalini Yoga, Yin Yoga, Pilates.</p> </div>',
+    position: { lat: 43.75085032982795, lng: 7.444299459457397 }
   },
   
   //MASSAGE BUSINESSES:
   {
     icon: 'massage',
-    content: '<div id="content"> <strong> <h6><a target="_blank" href="http://www.bodywork.com">BodyWork by Andrea Daumas</a></h6> <p>Relaxing Massage, Reenergising/Detox Massage, Deep Tissue Massage, Thai Massage, Foot Reflexology.</p> </strong> </div>',
-    position: { lat: 43.697206, lng: 7.2552673 }
+    content: '<div id="info-content"> <h6><a target="_blank" href="http://www.kescardoso.com">KES CARDOSO : Yoga & Sound</a></h6> <p><strong>Yoga:</strong> Yin-Yang Balanced Flow, Hatha Yoga Flow, Kundalini Yoga, Yin Yoga Restorative.<br/><br/><strong>Massage:</strong> Sound Healing Therapy, Sonic Massage.</p> </div>',
+    position: { lat: 43.71873146899887, lng: 7.272777557373047 }
+  }, 
+  {
+    icon: 'massage',
+    content: '<div id="info-content"> <h6><a target="_blank" href="http://www.bodywork.com">BodyWork by Andrea Daumas</a></h6> <p>Relaxing Massage, Reenergising/Detox Massage, Deep Tissue Massage, Thai Massage, Foot Reflexology.</p> </div>',
+    position: { lat: 43.69720008098092, lng: 7.257483601570129 }
   },
   {
     icon: 'massage',
-    content: '<div id="content"> <strong> <h6><a target="_blank" href="https://rivieramassage.com/">Riviera Massage by Shona Marrs</a></h6> <p>Deep Tissue, Body Sculpting, Swedish, Sports, Acupressure, Thai,<br/>Skin rolling and manual kneading, Passive joint and sensory repatterning.</p> </strong> </div>',
-    position: { lat: 43.5810279, lng: 7.1201423 }
-  },
+    content: '<div id="info-content"> <h6><a target="_blank" href="https://rivieramassage.com/">Riviera Massage by Shona Marrs</a></h6> <p>Deep Tissue, Body Sculpting, Swedish, Sports, Acupressure, Thai,<br/>Skin rolling and manual kneading, Passive joint and sensory repatterning.</p> </div>',
+    position: { lat: 43.58102233159652, lng: 7.122316360473633 }
+  }
+  
 ];
 
 
@@ -56,7 +67,7 @@ var map;
 // Define custom map options.
 // Tutorial from: https://developers.google.com/maps/documentation/javascript/controls
 // Tutorial from: https://developers.google.com/maps/documentation/javascript/controls#Adding_Controls_to_the_Map
-var coteAzur = {lat: 43.817309, lng: 7.1933086};
+var coteAzur = {lat: 43.8416215, lng: 7.2062602};
 var mapOptions = {
 	zoom: 10,
 	center: coteAzur,
@@ -92,8 +103,10 @@ function activateMap() {
   
   // Add markers and display infowindows on mouseover.
   // Code from: https://codepen.io/olivertaylor/pen/BWWNeb?editors=0010#0
-  var InfoWindows = new google.maps.InfoWindow({});
-	
+  var InfoWindows = new google.maps.InfoWindow({
+    maxWidth: 280
+  });
+  
 	features.forEach(function(business) {	
 		var marker = new google.maps.Marker({
 		  position: { lat: business.position.lat, lng: business.position.lng },
