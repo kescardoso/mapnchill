@@ -5,7 +5,7 @@ var features = [
   //YOGA BUSINESSES:
   {
     icon: 'yoga',
-    content: '<div id="info-content"> <h6><a target="_blank" href="http://www.kescardoso.com">KES CARDOSO : Yoga & Sound <i class="fa fa-external-link-alt"></i></a></h6> <p><strong>Yoga:</strong> Yin-Yang Balanced Flow, Hatha Yoga Flow, Kundalini Yoga, Yin Yoga Restorative.<br/><br/><strong>Massage:</strong> Sound Healing Therapy, Sonic Massage.</p> </div>',
+    content: '<div id="info-content"> <h6><a target="_blank" href="http://www.kescardoso.com">KES CARDOSO<br/>Yoga & Sound</a></h6> <p><strong>Yoga:</strong> Yin-Yang Balanced Flow, Hatha Yoga Flow, Kundalini Yoga, Yin Yoga Restorative.<br/><strong>Massage:</strong> Sound Healing Therapy, Sonic Massage.</p> </div>',
     position: { lat: 43.71875279296885, lng: 7.2729331254959115 }
   }, 
   {
@@ -30,7 +30,7 @@ var features = [
   },
   {
     icon: 'yoga',
-    content: '<div id="info-content"> <h6><a target="_blank" href="https://www.facebook.com/peaceyoganice/">Thousand Bridges (La Passarelle)</a></h6> <p>Bikram Yoga, Kundalini Yoga, Yin Yoga Restorative.<br/>Sound Healing, Nature Immersion and Retreats.</p> </div>',
+    content: '<div id="info-content"> <h6><a target="_blank" href="https://www.facebook.com/peaceyoganice/">Thousand Bridges (La Passarelle)</a></h6> <p>Bikram Yoga, Kundalini Yoga, Yin Yoga Restorative, Sound Healing, Nature Immersion and Retreats.</p> </div>',
     position: { lat: 44.077041901917, lng: 7.121543884277344 }
   },
   {
@@ -42,7 +42,7 @@ var features = [
   //MASSAGE BUSINESSES:
   {
     icon: 'massage',
-    content: '<div id="info-content"> <h6><a target="_blank" href="http://www.kescardoso.com">KES CARDOSO : Yoga & Sound</a></h6> <p><strong>Yoga:</strong> Yin-Yang Balanced Flow, Hatha Yoga Flow, Kundalini Yoga, Yin Yoga Restorative.<br/><br/><strong>Massage:</strong> Sound Healing Therapy, Sonic Massage.</p> </div>',
+    content: '<div id="info-content"> <h6><a target="_blank" href="http://www.kescardoso.com">KES CARDOSO<br/>Yoga & Sound</a></h6> <p><strong>Yoga:</strong> Yin-Yang Balanced Flow, Hatha Yoga Flow, Kundalini Yoga, Yin Yoga Restorative.<br/><strong>Massage:</strong> Sound Healing Therapy, Sonic Massage.</p> </div>',
     position: { lat: 43.71873146899887, lng: 7.272777557373047 }
   }, 
   {
@@ -52,7 +52,7 @@ var features = [
   },
   {
     icon: 'massage',
-    content: '<div id="info-content"> <h6><a target="_blank" href="https://rivieramassage.com/">Riviera Massage by Shona Marrs</a></h6> <p>Deep Tissue, Body Sculpting, Swedish, Sports, Acupressure, Thai,<br/>Skin rolling and manual kneading, Passive joint and sensory repatterning.</p> </div>',
+    content: '<div id="info-content"> <h6><a target="_blank" href="https://rivieramassage.com/">Riviera Massage by Shona Marrs</a></h6> <p>Deep Tissue, Body Sculpting, Swedish, Sports, Acupressure, Thai, Skin rolling and manual kneading, Passive joint and sensory repatterning.</p> </div>',
     position: { lat: 43.58102233159652, lng: 7.122316360473633 }
   }
   
@@ -84,11 +84,11 @@ var mapOptions = {
 // Code from: https://codepen.io/olivertaylor/pen/BWWNeb?editors=0010#0
 var icons = { 
   yoga: { 
-    icon: 'http://www.kescardoso.com/wp-content/uploads/2019/09/yoga-icon-32px.png'
+    icon: 'assets/images/icon-yogagirl.png'
   },
   massage:
   {
-    icon: 'http://www.kescardoso.com/wp-content/uploads/2019/09/massage-icon-32px.png'
+    icon: 'assets/images/icon-spa.png'
   }
 };
 

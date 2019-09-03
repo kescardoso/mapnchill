@@ -70,7 +70,7 @@ Thanks for appreciating Map & Chill with me :)
 
 ### Media
 - [Jens Kreuter](https://unsplash.com/photos/PfK35Iw1JAo)
-- [Yoga Icon](https://www.flaticon.com/authors/freepik)
+- [Yoga Icon](https://www.flaticon.com/authors/photo3idea_studio)
 - [Massage Icon](https://www.flaticon.com/authors/freepik)
 
 ### Acknowledgements

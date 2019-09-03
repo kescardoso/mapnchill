@@ -18,12 +18,12 @@ a:active:focus {
     color: #000;
 }
 
-/*----------------------------------------------------------> Hero + Call Out */
+/*---------------------------------------------------------------------> Hero */
 
 .hero-container {
     max-width: 100%;
     height: 100vh;
-    background: url("../images/HeroBeachHat.jpg") no-repeat center center fixed;
+    background: url("../images/heroHat.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -32,7 +32,7 @@ a:active:focus {
     align-items: center;
     justify-content: center;
     position: relative;
-    zoom: 100%;
+    zoom: 100% !important;
 }
 
 .jumbotron {
@@ -46,7 +46,7 @@ a:active:focus {
     letter-spacing: 1px;
     text-align: center;
     font-family: "Montserrat", sans-serif;
-    font-weight: 300;
+    color: #999;
     font-size: 14px;
 }
 
@@ -74,3 +74,21 @@ a:active:focus {
     width: 90%;
 }
 
+/*-------------------------------------------------------------------> Footer */
+
+.footer {
+    font-family: "Montserrat", sans-serif;
+    font-size: 90%;
+    color: #000;
+    font-weight: 400;
+}
+
+.site-credits {
+    color: #999;
+    font-size: 80%;
+    font-weight: 300;
+}
+
+.logo-footer {
+    width: 200px;
+}
