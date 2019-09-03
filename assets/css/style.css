@@ -32,6 +32,7 @@ a:active:focus {
     align-items: center;
     justify-content: center;
     position: relative;
+    zoom: 100%;
 }
 
 .jumbotron {
