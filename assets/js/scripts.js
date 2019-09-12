@@ -84,11 +84,25 @@ var mapOptions = {
 // Code from: https://codepen.io/olivertaylor/pen/BWWNeb?editors=0010#0
 var icons = { 
   yoga: { 
-    icon: 'assets/images/icon-yogagirl.png'
+    icon: 'assets/images/icon-yoga.png'
   },
   massage:
   {
-    icon: 'assets/images/icon-spa.png'
+    icon: 'assets/images/icon-massage.png'
+  },
+  soundtherapy: { 
+    icon: 'assets/images/icon-sound.png'
+  },
+  osteopathe:
+  {
+    icon: 'assets/images/icon-osteo.png'
+  },
+  pilates: { 
+    icon: 'assets/images/icon-pilates.png'
+  },
+  acupuncture:
+  {
+    icon: 'assets/images/icon-acupu.png'
   }
 };
 
@@ -156,6 +170,8 @@ function activateMap() {
         console.log("Returned place contains no geometry");
         return;
       }
+      // Converting MarkerImage objects to type Icon
+      // Source: https://developers.google.com/maps/documentation/javascript/markers
       var icon = {
         url: place.icon,
         size: new google.maps.Size(71, 71),
