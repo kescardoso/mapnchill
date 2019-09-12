@@ -170,14 +170,13 @@ function activateMap() {
         console.log("Returned place contains no geometry");
         return;
       }
+      
       // Converting MarkerImage objects to type Icon
-      // Source: https://developers.google.com/maps/documentation/javascript/markers
       var icon = {
         url: place.icon,
-        size: new google.maps.Size(71, 71),
+        scaledSize: new google.maps.Size(24, 24),
         origin: new google.maps.Point(0, 0),
-        anchor: new google.maps.Point(17, 34),
-        scaledSize: new google.maps.Size(25, 25)
+        anchor: new google.maps.Point(17, 34)
       };
       
       // Create a marker for each place.
@@ -185,7 +184,7 @@ function activateMap() {
         map: map,
         icon: icon,
         title: place.name,
-        position: place.geometry.location
+        position: place.geometry.location,
       }));
 
       if (place.geometry.viewport) {
