@@ -1,5 +1,6 @@
 // DATA: yoga and massage businesses to be added to map.
 // Code from: https://codepen.io/olivertaylor/pen/BWWNeb?editors=0010#0
+
 var features = [
   
   //YOGA BUSINESSES:
@@ -59,6 +60,7 @@ var features = [
 ];
 
 
+
 // GLOBAL SETTINGS
 // Define variables.
 var google;
@@ -73,38 +75,36 @@ var mapOptions = {
 	center: coteAzur,
 	mapTypeId: 'roadmap',
 	zoomControl: true,
-  mapTypeControl: false,
-  scaleControl: true,
-  streetViewControl: false,
-  rotateControl: false,
-  fullscreenControl: false
+	mapTypeControl: false,
+	scaleControl: true,
+	streetViewControl: false,
+	rotateControl: false,
+	fullscreenControl: false
 };
 
 // Define custom icons for map markers.
 // Code from: https://codepen.io/olivertaylor/pen/BWWNeb?editors=0010#0
-var icons = { 
-  yoga: { 
+var icons = {
+	yoga: { 
     icon: 'assets/images/icon-yoga.png'
   },
-  massage:
-  {
+  massage: {
     icon: 'assets/images/icon-massage.png'
   },
   soundtherapy: { 
     icon: 'assets/images/icon-sound.png'
   },
-  osteopathe:
-  {
+  osteopathe: {
     icon: 'assets/images/icon-osteo.png'
   },
   pilates: { 
     icon: 'assets/images/icon-pilates.png'
   },
-  acupuncture:
-  {
+  acupuncture: {
     icon: 'assets/images/icon-acupu.png'
   }
 };
+
 
 
 // GOOGLE MAPS API INSTALLATION.
@@ -120,7 +120,7 @@ function activateMap() {
     maxWidth: 280
   });
   
-	features.forEach(function(business) {	
+	features.forEach(function(business) {
 		var marker = new google.maps.Marker({
 		  position: { lat: business.position.lat, lng: business.position.lng },
 		  map: map,
@@ -143,55 +143,58 @@ function activateMap() {
   
   // Bias the SearchBox results towards current map's viewport.
   map.addListener('bounds_changed', function() {
-    searchBox.setBounds(map.getBounds());
+	  searchBox.setBounds(map.getBounds());
   });
   
   var markers = [];
+  
   // Listen for the event fired when the user selects a prediction and retrieve more details for that place.
   searchBox.addListener('places_changed', function() {
     var places = searchBox.getPlaces();
-
-    if (places.length == 0) {
-      return;
-    }
+		  if (places.length == 0) {
+      	return;
+    	}
     
     // Clear out the old markers.
     markers.forEach(function(marker) {
       marker.setMap(null);
     });
-    markers = [];
     
+    markers = [];
+      
     // For each place, get the icon, name and location.
     var bounds = new google.maps.LatLngBounds();
     places.forEach(function(place) {
       if (!place.geometry) {
         console.log("Returned place contains no geometry");
-        return;
+          return;
       }
-      
-      // Converting MarkerImage objects to type Icon
-      var icon = {
-        url: place.icon,
+        
+  	// Converting MarkerImage objects to type Icon
+  	var icon = {
+      url: place.icon,
         scaledSize: new google.maps.Size(24, 24),
         origin: new google.maps.Point(0, 0),
         anchor: new google.maps.Point(17, 34)
       };
-      
-      // Create a marker for each place.
-      markers.push(new google.maps.Marker({
-        map: map,
-        icon: icon,
-        title: place.name,
-        position: place.geometry.location,
-      }));
-
-      if (place.geometry.viewport) {
+        
+  	// Create a marker for each place.
+  	markers.push(new google.maps.Marker({
+  		map: map,
+      icon: icon,
+      title: place.name,
+      position: place.geometry.location,
+  	}));
+  
+    	if (place.geometry.viewport) {
         // Only geocodes have viewport.
         bounds.union(place.geometry.viewport);
-      } else {
+    	}
+    	else
+    	{
         bounds.extend(place.geometry.location);
       }
-    });
+  	});
     map.fitBounds(bounds);
   });
 
