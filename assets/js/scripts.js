@@ -114,7 +114,6 @@ function activateMap() {
   // Load Map.
   map = new google.maps.Map(document.getElementById('map'), mapOptions);
   
-  
   // Add markers and display infowindows on mouseover.
   // Code from: https://codepen.io/olivertaylor/pen/BWWNeb?editors=0010#0
   var InfoWindows = new google.maps.InfoWindow({
@@ -133,7 +132,6 @@ function activateMap() {
 		  InfoWindows.setContent(business.content);
 		});
 	});
-	
 	
 	// Add search and link it to the UI element using the Google Place Autocomplete feature:
 	// people can enter geographical searches, and the search box will return a
@@ -198,7 +196,6 @@ function activateMap() {
   });
 
 }
-  
-  
+
 // Call the function and display the map on the browser.
 google.maps.event.addDomListener(window, 'load', activateMap);
