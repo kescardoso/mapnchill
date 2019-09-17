@@ -23,103 +23,83 @@ var features = [
     icon: 'yoga',
     content: '<div id="info-content"> <h6><a target="_blank" href="http://www.yoganice.fr">Yoganice</a></h6> <p>Hatha Yoga</p> </div>',
     position: { lat: 43.7186366, lng: 7.272874 }
-  },
-  {
+  }, {
     icon: 'yoga',
     content: '<div id="info-content"> <h6><a target="_blank" href="http://www.learnpoweryoga.com/">Bertas Yoga by the Sea</a></h6> <p>Open Air Power Yoga</p> </div>',
     position: { lat: 43.694725560257744, lng: 7.280743718147279 }
-  },
-  {
+  }, {
     icon: 'yoga',
     content: '<div id="info-content"> <h6><a target="_blank" href="https://yoga-mala-english-speaking-yoga-nice-french-riviera.business.site/">Yuko & Nick</a></h6> <p>All levels and Sports Yoga, group, private and outdoor classes</p> </div>',
     position: { lat: 43.69934484156495, lng: 7.279102206230164 }
-  },
-  {
+  }, {
     icon: 'yoga',
     content: '<div id="info-content"> <h6><a target="_blank" href="https://yogalogy.fr">Yogalogy</a></h6> <p>Hatha Yoga</p> </div>',
     position: { lat: 43.700329931926724, lng: 7.286800146102905 }
-  },
-  {
+  }, {
     icon: 'yoga',
     content: '<div id="info-content"> <h6><a target="_blank" href="https://yoga-nice.com">Art Yoga</a></h6> <p>Hatha, Yin, Dharma Flow, Kids Yoga, Vinyasa, Alignment</p> </div>',
     position: { lat: 43.70201114128295, lng: 7.276626527309417 }
-  },
-  {
+  }, {
     icon: 'yoga',
     content: '<div id="info-content"> <h6><a target="_blank" href="https://futureform.fr">Future Form</a></h6> <p>Ashtanga, Vinyasa, Aerial Yoga, Pilates, Ballet</p> </div>',
     position: { lat: 43.6978361481798, lng: 7.268046140670776 }
-  },
-  {
+  }, {
     icon: 'yoga',
     content: '<div id="info-content"> <h6><a target="_blank" href="http://pranayoga-nice.com/">Atelier des Souffles</a></h6> <p>Yoga and Ayurveda</p> </div>',
     position: { lat: 43.7029244428666, lng: 7.276256382465362 }
-  },
-  {
+  }, {
     icon: 'yoga',
     content: '<div id="info-content"> <h6><a target="_blank" href="http://www.anuttara.com//">Yoga Iyengar Nice</a></h6> <p>Iyengar</p> </div>',
     position: { lat: 43.70355851030545, lng: 7.291386723518371 }
-  },
-  {
+  }, {
     icon: 'yoga',
     content: '<div id="info-content"> <h6><a target="_blank" href="http://www.pepitayoga.com">Pepita Yoga</a></h6> <p>Hatha, Vinyasa, AcroYoga, HotYoga, PowerYoga, Yin/Restorative, Pilates.</p> </div>',
     position: { lat: 43.69852262776876, lng: 7.2591894865036 }
-  },
-  {
+  }, {
     icon: 'yoga',
     content: '<div id="info-content"> <h6><a target="_blank" href="https://enso.fr/">Enso Yoga Massena</a></h6> <p>Hatha, Iyengar, Ashtanga, Vinyasa, Restorative, Pre-natal.</p> </div>',
     position: { lat: 43.69755689999653, lng: 7.2676920890808105 }
-  },
-  {
+  }, {
     icon: 'yoga',
     content: '<div id="info-content"> <h6><a target="_blank" href="https://enso.fr/">Enso Yoga Valbonne</a></h6> <p>Hatha, Iyengar, Ashtanga, Vinyasa, Restorative, Pre-natal.</p> </div>',
     position: { lat: 43.62272781889663, lng: 7.04847514629364 }
-  },
-  {
+  }, {
     icon: 'yoga',
     content: '<div id="info-content"> <h6><a target="_blank" href="http://www.rivierayoga.fr">Riviera Yoga</a></h6> <p>Hatha, Ashtanga, Vinyasa, Restorative, Pre/Post-natal.</p> </div>',
     position: { lat: 43.69970552613459, lng: 7.2816047072410575 }
-  },
-  {
+  }, {
     icon: 'yoga',
     content: '<div id="info-content"> <h6><a target="_blank" href="https://www.facebook.com/peaceyoganice/">Thousand Bridges (La Passarelle)</a></h6> <p>Bikram, Kundalini, Yin/Restorative, Sound Healing, Nature Immersion and Retreats.</p> </div>',
     position: { lat: 44.077041901917, lng: 7.121543884277344 }
-  },
-  {
+  }, {
     icon: 'yoga',
     content: '<div id="info-content"> <h6><a target="_blank" href="https://www.mauna-meditation.com">Mauna Practice Center</a></h6> <p>Meditation, Hatha, Kundalini, Vinyasa, Gasquet, Hormonal Yoga, Sivananda, Kids Yoga, Pilates, Chinese Mouvement</p> </div>',
     position: { lat: 43.60019467439821, lng: 7.093745470046997 }
-  },
-  {
+  }, {
     icon: 'yoga',
     content: '<div id="info-content"> <h6><a target="_blank" href="https://tigre-yoga.com/en/capsule/le-tigre-monte-carlo/">Le Tigre Monte Carlo</a></h6> <p>Hatha, Vinyasa, Kundalini, Yin/Restorative, Pilates.</p> </div>',
     position: { lat: 43.75085032982795, lng: 7.444299459457397 }
-  },
-  {
+  }, {
     icon: 'yoga',
     content: '<div id="info-content"> <h6><a target="_blank" href="https://www.vinyasayogastudio.com/">Vinyasa Yoga Studio</a></h6> <p>Hatha and Vinyasa</p> </div>',
     position: { lat: 43.552859838633005, lng: 7.018096446990967 }
-  },
-  {
+  }, {
     icon: 'yoga',
     content: '<div id="info-content"> <h6><a target="_blank" href="https://calmyoga.fr/">Calm Yoga</a></h6> <p>Ashtanga, Mysore, Vinyasa, Yin/Restorative</p> </div>',
     position: { lat: 43.55510500302328, lng: 7.037148177623749 }
-  },
-  {
+  }, {
     icon: 'yoga',
     content: '<div id="info-content"> <h6><a target="_blank" href="https://ashtangayogaantibes.com/">Ashtanga Yoga Antibes</a></h6> <p>Ashtanga, Mysore, Vinyasa, Yin, Pranayama, Meditation</p> </div>',
     position: { lat: 43.60153878219934, lng: 7.0611512660980225 }
-  },
-  {
+  }, {
     icon: 'yoga',
     content: '<div id="info-content"> <h6><a target="_blank" href="https://samasthitihouseofyoga.com/">Samasthiti House Of Yoga</a></h6> <p>Hatha, Vinyasa, Yin, Chi Gong, Ashtanga, Power Yoga</p> </div>',
     position: { lat: 43.57992841668282, lng: 7.125339210033417 }
-  },
-  {
+  }, {
     icon: 'yoga',
     content: '<div id="info-content"> <h6><a target="_blank" href="https://yoga-antibes.fr/">Yam Yoga</a></h6> <p>Hatha, Vinyasa, Yin, Ashtanga, Mysore</p> </div>',
     position: { lat: 43.58262722230181, lng: 7.116302847862244 }
-  },
-  {
+  }, {
     icon: 'yoga',
     content: '<div id="info-content"> <h6><a target="_blank" href="https://www.chival.fr/">Chival: Yoga, Permaculture, Animaux</a></h6> <p>Hatha, Yin, Yoga of Sound</p> </div>',
     position: { lat: 43.9372096, lng: 7.083968 }
@@ -130,33 +110,27 @@ var features = [
     icon: 'massage',
     content: '<div id="info-content"> <h6><a target="_blank" href="http://www.bodywork.com">BodyWork by Andrea Daumas</a></h6> <p>Relaxing Massage, Reenergising/Detox Massage, Deep Tissue Massage, Thai Massage, Foot Reflexology.</p> </div>',
     position: { lat: 43.69720008098092, lng: 7.257483601570129 }
-  },
-  {
+  }, {
     icon: 'massage',
     content: '<div id="info-content"> <h6><a target="_blank" href="https://rivieramassage.com/">Riviera Massage by Shona Marrs</a></h6> <p>Deep Tissue, Body Sculpting, Swedish, Sports, Acupressure, Thai, Skin rolling and manual kneading, Passive joint and sensory repatterning.</p> </div>',
     position: { lat: 43.58102233159652, lng: 7.122316360473633 }
-  },
-  {
+  }, {
     icon: 'massage',
     content: '<div id="info-content"> <h6><a target="_blank" href="https://californianmassage.com/">Californian Massage with Loris Castagnoli</a></h6> </div>',
     position: { lat: 43.700137956925175, lng: 7.282092869281768 }
-  },
-  {
+  }, {
     icon: 'massage',
     content: '<div id="info-content"> <h6><a target="_blank" href="https://keitaonozaki.com/">Massage Zen with Keita Onozaki</a></h6> <p>Japanese Shiatsu and Thai Traditional Massage</p></div>',
     position: { lat: 43.69658339963281, lng: 7.291351854801178 }
-  },
-  {
+  }, {
     icon: 'massage',
     content: '<div id="info-content"> <h6><a target="_blank" href="https://ayurveda-nice.com/">Rinascita Ayurveda Center</a></h6> <p>Ayurvedic Massage</p></div>',
     position: { lat: 43.699404955810564, lng: 7.253664135932922 }
-  },
-  {
+  }, {
     icon: 'massage',
     content: '<div id="info-content"> <h6><a target="_blank" href="https://ayurveda-nice.com/">Rinascita Ayurveda Center</a></h6> <p>Ayurvedic Massage</p></div>',
     position: { lat: 43.699404955810564, lng: 7.253664135932922 }
-  },
-  {
+  }, {
     icon: 'massage',
     content: '<div id="info-content"> <h6><a target="_blank" href="http://www.ayurvedanice.com/">Ayurveda Nice - Fabio di Giovanni</a></h6> <p>Ayurvedic Massage and Treatments</p></div>',
     position: { lat: 43.710253620469004, lng: 7.26249396800995 }
@@ -167,13 +141,11 @@ var features = [
     icon: 'soundtherapy',
     content: '<div id="info-content"> <h6><a target="_blank" href="http://www.kescardoso.com">KES CARDOSO<br/>Yoga & Sound</a></h6> <p><strong>Yoga:</strong> Yin-Yang Balanced Flow, Hatha, Kundalini, Yin/Restorative.<br/><strong>Sound Therapy:</strong> Sound Healing Therapy and Sonic Massage.</p> </div>',
     position: { lat: 43.71873146899887, lng: 7.272777557373047 }
-  },
-  {
+  }, {
     icon: 'soundtherapy',
     content: '<div id="info-content"> <h6><a target="_blank" href="https://www.vibrationssonores.com/">La Mètis</a></h6> <p>Sound Healing and Naturopathy</p> </div>',
     position: { lat: 43.7009737223943, lng: 7.289299964904785 }
-  },
-  {
+  }, {
     icon: 'soundtherapy',
     content: '<div id="info-content"> <h6><a target="_blank" href="http://www.lametisnice.com">Aleksandra Sarnowska</a></h6> <p>Sonology and Sound Therapy</p> </div>',
     position: { lat: 43.69528214239333, lng: 7.254275679588318 }
@@ -218,9 +190,9 @@ var map;
 // Define custom map options.
 // Tutorial from: https://developers.google.com/maps/documentation/javascript/controls
 // Tutorial from: https://developers.google.com/maps/documentation/javascript/controls#Adding_Controls_to_the_Map
-var coteAzur = { lat: 43.8416215, lng: 7.2062602 };
+var coteAzur = { lat: 43.7023204, lng: 7.2755145 };
 var mapOptions = {
-  zoom: 11,
+  zoom: 14,
   center: coteAzur,
   mapTypeId: 'roadmap',
   zoomControl: true,
