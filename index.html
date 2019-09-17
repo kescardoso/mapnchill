@@ -1,56 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Map & Chill - Yoga and Massage Locator in the Côte d'Azur">
-	<meta name="keywords" content="yoga, massage, welness, côte d'azur, french riviera, south of france, european vacation">
-	<meta name="author" content="Kes Cardoso">
+    <meta name="keywords" content="yoga, massage, welness, côte d'azur, french riviera, south of france, european vacation">
+    <meta name="author" content="Kes Cardoso">
     <title>Map & Chill</title>
-    
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    
+
     <!-- Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400%7Montserrat:300,400&display=swap">
-    
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 </head>
 
 <body>
-    
+
     <!-- Hero + Jumbotron -->
     <div class="container-fluid hero-container">
-        
+
         <!-- Hero Image -->
         <div class="opaque-overlay">&nbsp;
         </div>
-        
+
         <div class="row">
             <div class="col-12">
-                
+
                 <!-- Jumbotron -->
                 <section class="jumbotron text-center">
-                    
+
                     <!-- Round Logo -->
                     <div class="media">
-                        <img    src="assets/images/Logo-Map&Chill.jpg" 
-                                class="img-fluid round-logo rounded-circle mr-3" 
-                                height=500 
-                                width=500 
-                                alt="Map & Chill"
-                        >
+                        <img src="assets/images/Logo-Map&Chill.jpg" class="img-fluid round-logo rounded-circle mr-3" height=500 width=500 alt="Map & Chill">
                     </div>
-                    
+
                 </section>
-                
+
             </div>
         </div>
-        
+
     </div>
-    
+
     <!-- Google MapsAPI  -->
     <div class="container-fluid map-container mt-4 mb-2">
 
@@ -59,74 +60,67 @@
                 <h3>Map Legend</h3>
             </div>
         </div>
-            
+
         <div class="row legend-box mt-2 mb-2">
-        
+
             <div class="col-6 col-md-4 text-center">
                 <p><img class="legend-icons" src="assets/images/icon-yoga.png"></img>Yoga</p>
             </div>
-              
+
             <div class="col-6 col-md-4 text-center">
                 <p><img class="legend-icons" src="assets/images/icon-massage.png"></img>Massage</p>
             </div>
-            
+
             <div class="col-6 col-md-4 text-center">
                 <p><img class="legend-icons" src="assets/images/icon-sound.png"></img>Sound Therapy</p>
             </div>
-              
+
             <div class="col-6 col-md-4 text-center">
                 <p><img class="legend-icons" src="assets/images/icon-osteo.png"></img>Osteopathy</p>
             </div>
-            
+
             <div class="col-6 col-md-4 text-center">
                 <p><img class="legend-icons" src="assets/images/icon-pilates.png"></img>Pilates</p>
             </div>
-              
+
             <div class="col-6 col-md-4 text-center">
                 <p><img class="legend-icons" src="assets/images/icon-acupuncture.png"></img>Acupuncture</p>
             </div>
-        
+
         </div>
-        
+
         <div class="row">
             <div class="col-12 instructions text-center mt-2 mb-4">
-                
+
                 <h3>Map Instructions</h3>
-                <p><strong>(1)</strong> Search your home or accomodation adress on the searchbox below, 
-                or directly locate your desired region via the icons and map controls. 
-                <strong>(2)</strong>Then, click on the map pin that corresponds to your desired service (which can be yoga, massage, sound therapy, osteopathy, pilates or acupuncture) 
-                to view a pop-up infobox with more details about the service. 
-                <strong>(3)</strong>Click on the name of the businnes (inside the infobox) to be automatically redirected to their website on a new browser window.</p>
-            
+                <p><strong>(1)</strong> Search your home or accomodation adress on the searchbox below, or directly locate your desired region via the icons and map controls.
+                    <strong>(2)</strong>Then, click on the map pin that corresponds to your desired service (which can be yoga, massage, sound therapy, osteopathy, pilates or acupuncture) to view a pop-up infobox with more details about the service.
+                    <strong>(3)</strong>Click on the name of the businnes (inside the infobox) to be automatically redirected to their website on a new browser window.</p>
+
             </div>
-        
+
         </div>
-        
+
         <!-- Google Searchbox -->
         <div class="row">
             <div class="col-12 map-canvas">
-                
+
                 <div class="map-searchbox d-flex justify-content-center">
-                    <input 
-                        id="search" 
-                        class="controls" 
-                        type="text"  
-                        placeholder=" Search on Map&Chill"
-                    >
+                    <input id="search" class="controls" type="text" placeholder=" Search on Map&Chill">
                 </div>
-                
+
             </div>
         </div>
-        
+
         <!-- Google Map -->
         <div class="row">
             <div class="col-12">
                 <div id="map"></div>
             </div>
         </div>
-        
+
     </div>
-    
+
     <!-- Footer -->
     <div class="container-fluid footer-container mt-5">
         <footer>
@@ -134,21 +128,17 @@
                 <img class="logo-footer" src="assets/images/logo-Map&Chill-footer.jpg"></img>
                 <br/><br/>
                 <p>Map & Chill is a yoga and massage locator in the Côte d'Azur.
-                <br/>
-                It helps you find the best yoga teachers and massage therapists 
-                so you can enjoy a healthy, relaxing break in the French Riviera.
+                    <br/> It helps you find the best yoga teachers and massage therapists so you can enjoy a healthy, relaxing break in the French Riviera.
                 </p>
-                <p class="site-credits text-uppercase">©2019 <a href="#" aria-label="Home: Map & Chill">Map & Chill</a> 
-                by <a href="http://kescardoso.com" target="_blank" aria-label="Kes Cardoso website">Kes Cardoso</a>
-                <br/>
-                Powered by Tiny Pixels & Big Smiles
+                <p class="site-credits text-uppercase">©2019 <a href="#" aria-label="Home: Map & Chill">Map & Chill</a> by <a href="http://kescardoso.com" target="_blank" aria-label="Kes Cardoso website">Kes Cardoso</a>
+                    <br/> Powered by Tiny Pixels & Big Smiles
                 </p>
             </div>
         </footer>
     </div>
-    
+
     <!----------------------------------->
-    
+
     <!-- Google Places API: Search Box with Autocomplete Function -->
     <script>
         function activateMap() {
@@ -157,24 +147,21 @@
         }
     </script>
     <!-- Google API Key -->
-    <script async defer 
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmNn5vKRp_5ZR_NBvqMtN-IWyVJeCafTk&libraries=places&callback=activateMap">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmNn5vKRp_5ZR_NBvqMtN-IWyVJeCafTk&libraries=places&callback=activateMap">
     </script>
-    
+
     <!-- JQuery -->
-    <script type="text/javascript"
-        src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
     </script>
-    
+
     <!-- Bootstrap-JS -->
-    <script type="text/javascript"
-        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
     </script>
 
     <!-- Custom Javascript -->
-    <script type="text/javascript"
-        src="assets/js/scripts.js">
+    <script type="text/javascript" src="assets/js/scripts.js">
     </script>
 
 </body>
+
 </html>
