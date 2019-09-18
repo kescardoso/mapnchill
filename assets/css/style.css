@@ -52,6 +52,10 @@ a:active:focus {
     Margin: 20px auto 5px auto;
 }
 
+.instructions {
+    line-height: 2em;
+}
+
 #search {
     width: 90%;
     letter-spacing: 1px;
@@ -92,11 +96,11 @@ a:active:focus {
     font-size: 90%;
     color: #000;
     font-weight: 300;
+    line-height: 2em;
 }
 
 .footer-links {
     font-size: 90%;
-    line-height: 2em;
     font-weight: 400;
 }
 
@@ -107,4 +111,5 @@ a:active:focus {
 
 .logo-footer {
     width: 200px;
+    margin-bottom: 11px;
 }
