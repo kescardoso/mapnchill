@@ -7,22 +7,11 @@ var features = [
   {
     icon: 'yoga',
     content: '<div id="info-content"> <h6><a target="_blank" href="http://www.kescardoso.com">KES CARDOSO<br/>Yoga & Sound</a></h6> <p><strong>Yoga:</strong> Yin-Yang Balanced Flow, Hatha, Kundalini, Yin/Restorative.<br/><strong>Sound Therapy:</strong> Sound Healing Therapy and Sonic Massage.</p> </div>',
-    position: { lat: 43.71875279296885, lng: 7.2729331254959115 }
-  },
-  {
-    icon: 'yoga',
-    content: '<div id="info-content"> <h6><a target="_blank" href="http://www.yogayoganice.fr">Yoga Yoga Nice</a></h6> <p>Hatha, Vinyasa, Ashtanga, Nidra, Yoga for seniors, Meditation</p> </div>',
-    position: { lat: 43.70842722671067, lng: 7.261120676994324 }
-  },
-  {
+    position: { lat: 43.7186366, lng: 7.272874 }
+  }, {
     icon: 'yoga',
     content: '<div id="info-content"> <h6><a target="_blank" href="http://www.yogabikramnice.com">Yoga Bikram Nice</a></h6> <p>Bikram</p> </div>',
     position: { lat: 43.6951173015327, lng: 7.2870227694511405 }
-  },
-  {
-    icon: 'yoga',
-    content: '<div id="info-content"> <h6><a target="_blank" href="http://www.yoganice.fr">Yoganice</a></h6> <p>Hatha Yoga</p> </div>',
-    position: { lat: 43.7186366, lng: 7.272874 }
   }, {
     icon: 'yoga',
     content: '<div id="info-content"> <h6><a target="_blank" href="http://www.learnpoweryoga.com/">Bertas Yoga by the Sea</a></h6> <p>Open Air Power Yoga</p> </div>',
@@ -156,23 +145,19 @@ var features = [
     icon: 'osteopathy',
     content: '<div id="info-content"> <h6><a target="_blank" href="http://osteopathebutet.fr"><p>Camille Butet</a></h6> <p>5 Cours Saleya, 06000 Nice, France<br/>+33 6 08 01 77 96</p> </div>',
     position: { lat: 43.695712665798, lng: 7.275564372539521 }
-  },
-  {
+  }, {
     icon: 'osteopathy',
     content: '<div id="info-content"> <h6><a target="_blank" href="http://www.osteo-massage-nice.com/"><p>Nicolas Eisen</a></h6> <p>4 Rue Adolphe de Rothschild, 06000 Nice, France<br/>+33 7 87 98 97 03</p> </div>',
     position: { lat: 43.703292862072416, lng: 7.273710966110229 }
-  },
-  {
+  }, {
     icon: 'osteopathy',
     content: '<div id="info-content"> <h6><a target="_blank" href="http://cabinet-osteopathie-nice.com/"><p>Chloé Le Brenn Robin</a></h6> <p>1 Avenue Comba, 06000 Nice, France<br/>+33 4 93 84 04 69</p> </div>',
     position: { lat: 43.700678975809275, lng: 7.2556972503662 }
-  },
-  {
+  }, {
     icon: 'osteopathy',
     content: '<div id="info-content"> <h6><a target="_blank" href="http://lemedecin.fr/osteopathe/le-cannet/johanna-benzaquen/114-boulevard-sadi-carnot/rdv/new/"><p>Johanna Benzaquen (Cannes)</a></h6> <p>114 blvd Sadi Carnot 06110 - LE CANNET <br/>+33 6 61 96 56 54</p> </div>',
     position: { lat: 43.56541224689357, lng: 7.016299366950988 }
-  },
-  {
+  }, {
     icon: 'osteopathy',
     content: '<div id="info-content"> <h6><a target="_blank" href="http://www.doctolib.fr/osteopathe/nice/johanna-benzaquen">Johanna Benzaquen (Nice)</a></h6> <p>Johanna Benzaquen (Nice)</a></h6> <p>10 rue Alphonse Karr 06000 - Nice <br/>+33 6 61 96 56 54</p> </div>',
     position: { lat: 43.699100505623726, lng: 7.26568579673767 }
