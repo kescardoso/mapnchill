@@ -217,12 +217,6 @@ var icons = {
   },
   osteopathy: {
     icon: 'assets/images/icon-osteo.png'
-  },
-  pilates: {
-    icon: 'assets/images/icon-pilates.png'
-  },
-  acupuncture: {
-    icon: 'assets/images/icon-acupu.png'
   }
 };
 

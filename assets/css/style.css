@@ -40,6 +40,7 @@ a:active:focus {
 }
 
 /*------------------------------------------------> Google Map and Search Box */
+
 .legend-box {
     border: 2px solid #f5f5f5;
     margin-left: 2px;
@@ -90,12 +91,18 @@ a:active:focus {
     font-family: "Montserrat", sans-serif;
     font-size: 90%;
     color: #000;
+    font-weight: 300;
+}
+
+.footer-links {
+    font-size: 90%;
+    line-height: 2em;
     font-weight: 400;
 }
 
 .site-credits {
     font-size: 80%;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .logo-footer {
