@@ -14,7 +14,9 @@ Map & Chill is a geo-location-based website that lists yoga and massage services
 - [View the Repository on GitHub](https://github.com/kescardoso/ms2-mapnchill)
 
 This project has both educational and entrepreneurial goals.
+
 Thanks for appreciating Map & Chill with me!
+
 [Kes Cardoso](http://www.kescardoso.com)
 
 ## Contents table
@@ -182,4 +184,5 @@ Anna uses her mobile phone to do her search, and she is an ideal user for Map & 
 	- [Osteopathy Icon: by Freepik (Flat Icon)](https://www.flaticon.com/free-icon/loving_354478)
 
 3. **Acknowledgements**
+
 Gratitude to my awesome mentor Seun Owonikoko Oluwaseun for her feminine, unconditional and generous support throughout my coding training and journey. Also, to Code Institute's Student Services for their amazing human and gentle support. Thank you, from the bottom of my heart.
