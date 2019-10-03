@@ -53,15 +53,15 @@ Thanks for appreciating Map & Chill with me!
 
 ### What is the client looking to achieve
 
-The client wants to locate real and current yoga or massage services in the French Riviera. The client wishes to make use of an online tool that can easily, quickly, and intuitively show visual information that allows direct contact or booking.
+- The client wants to locate real and current yoga or massage services in the French Riviera. The client wishes to make use of an online tool that can easily, quickly, and intuitively show visual information that allows direct contact or booking.
 
-The client desires to quickly identify what services are in close distance to their accommodation or homes, and with a click see what category of services are offered to, therefore, be redirected to the service's homepage for contact or booking information.
+- The client desires to quickly identify what services are in close distance to their accommodation or homes, and with a click see what category of services are offered to, therefore, be redirected to the service's homepage for contact or booking information.
 
-Service category (i.e., yoga types, and massage modalities), quality of services (well-rated, 4 stars and above according to google business ranking), and proximity to home or accommodation address are essential elements in the client's search and decision process.
+- Service category (i.e., yoga types, and massage modalities), quality of services (well-rated, 4 stars and above according to google business ranking), and proximity to home or accommodation address are essential elements in the client's search and decision process.
 
-Most clients browse from their mobile devices. Therefore, the client needs a mobile-first responsive webpage with an interactive online map, that lays out clear visuals, few texts, and intuitive graphics that help them achieve their goals. As they search the interactive Map, they get local results with pop-up info-boxes containing information about their preferred services. They can check services info and easily access the company's website.
+- Most clients browse from their mobile devices. Therefore, the client needs a mobile-first responsive webpage with an interactive online map, that lays out clear visuals, few texts, and intuitive graphics that help them achieve their goals. As they search the interactive Map, they get local results with pop-up info-boxes containing information about their preferred services. They can check services info and easily access the company's website.
 
-This website is entirely responsive and user-friendly; it has been carefully optimized and tested for all devices: mobile, tablet, and desktop. Map & Chill displays a simple design: full-width one scrolling page with a format that resembles an app, presenting the interactive Map with map key and instructions to seamlessly and intuitively guide clients into finding the information they are looking for.
+- This website is entirely responsive and user-friendly; it has been carefully optimized and tested for all devices: mobile, tablet, and desktop. Map & Chill displays a simple design: full-width one scrolling page with a format that resembles an app, presenting the interactive Map with map key and instructions to seamlessly and intuitively guide clients into finding the information they are looking for.
 
 ### User Stories
 
@@ -90,25 +90,25 @@ Anna uses her mobile phone to do her search, and she is an ideal user for Map & 
  
 ### Existing Features
 
-- **Hero Image and Logo:** shows a full width opening presentation with consistent branding and the Map & Chill Logo.
+1. **Hero Image and Logo:** shows a full width opening presentation with consistent branding and the Map & Chill Logo.
 
-- **Map Key:** displays and explains the icons (or markers) used on the Map to locate the services: yoga, massage, sound therapy, and osteopathy. It allows user to find precisely what they are looking for on the Map.
+2. **Map Key:** displays and explains the icons (or markers) used on the Map to locate the services: yoga, massage, sound therapy, and osteopathy. It allows user to find precisely what they are looking for on the Map.
 
-- **Map Instructions:** explains, using text and topics, how to perform a successful search on the Map.
+3. **Map Instructions:** explains, using text and topics, how to perform a successful search on the Map.
 
-- **Search Box:** allows the user to enter their home or accommodation address in the French Riviera so they can do a local search of services nearby. The Search Box is linked to the Map's API and uses Google Places and Google Autocomplete.
+4. **Search Box:** allows the user to enter their home or accommodation address in the French Riviera so they can do a local search of services nearby. The Search Box is linked to the Map's API and uses Google Places and Google Autocomplete.
 
-- **The Map:** an interactive Map that works with automatic and manual scrolling (for desktop and mobile devices) where users can locate their desired services in the French Riviera.
+5. **The Map:** an interactive Map that works with automatic and manual scrolling (for desktop and mobile devices) where users can locate their desired services in the French Riviera.
 
-- **Footer:** Displays credits and links for contact and donation towards the author.
+6. **Footer:** Displays credits and links for contact and donation towards the author.
 
 ### Features Left to Implement
 
-- **More Services:** increasing the number of services available on the Map is an ongoing update feature planned for future versions.
+1. **More Services:** increasing the number of services available on the Map is an ongoing update feature planned for future versions.
 
-- **More Services Category:** Acupuncture and Pilates are additional services categories that are planned to be added in future versions to the Map Key and the Map.
+2. **More Services Category:** Acupuncture and Pilates are additional services categories that are planned to be added in future versions to the Map Key and the Map.
 
-- **Data File:** In this initial development, it was not possible to separate the data (the list of businesses) from the Javascript code file. Further research and fixes are needed: the Google Maps API was not thoroughly fetching and integrating an external JSON file with the Javascript file. For better organization and separation of data and code, a JSON file containing all business listings is planned to be installed and integrated into future versions.
+3. **Data File:** In this initial development, it was not possible to separate the data (the list of businesses) from the Javascript code file. Further research and fixes are needed: the Google Maps API was not thoroughly fetching and integrating an external JSON file with the Javascript file. For better organization and separation of data and code, a JSON file containing all business listings is planned to be installed and integrated into future versions.
 
 ## Technologies Used
 
@@ -135,18 +135,18 @@ Anna uses her mobile phone to do her search, and she is an ideal user for Map & 
 
 ## Testing
 
-1. **Responsiveness** -- The responsiveness of this website was consistently tested during the development process: on GITHUB pages using Chrome developer tools, as well as locally using real mobile devices, tablets, and desktops.
+- **Responsiveness** -- The responsiveness of this website was consistently tested during the development process: on GITHUB pages using Chrome developer tools, as well as locally using real mobile devices, tablets, and desktops.
 
-2. **Browsers** -- The website was tested and verified using in Chrome, Safari, Firefox, and Opera.
+- **Browsers** -- The website was tested and verified using in Chrome, Safari, Firefox, and Opera.
 
-3. **Code Validation** -- The following  **validation services**  were used to check the code:
+- **Code Validation** -- The following  **validation services**  were used to check the code:
     - [W3C Markup Validator](https://validator.w3.org) was used to validate HTML.
     - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validate CSS.
     - [JSHint](https://jshint.com) was used to validate JavaScript.
 
-4. **Real User Input** -- I have asked friends and family to check and use the website on their desktop and mobile devices with positive feedback of proper functioning and design experience.
+- **Real User Input** -- I have asked friends and family to check and use the website on their desktop and mobile devices with positive feedback of proper functioning and design experience.
 
-5. **Practical Tests** -- Please, click on the linked titles below to open each test and see a screencast (mp4 file) on your browser.
+- **Practical Tests** -- Please, click on the linked titles below to open each test and see a screencast (mp4 file) on your browser.
 
     - Practical Test 1 [Searching a Business Address](http://www.kescardoso.com/wp-content/uploads/2019/10/MC2.mp4) -- This Screencast shows a search on the Map for a local business address.
     
@@ -185,4 +185,4 @@ Anna uses her mobile phone to do her search, and she is an ideal user for Map & 
 
 3. **Acknowledgements**
 
-Gratitude to my awesome mentor Seun Owonikoko Oluwaseun for her feminine, unconditional and generous support throughout my coding training and journey. Also, to Code Institute's Student Services for their amazing human and gentle support. Thank you, from the bottom of my heart.
+Gratitude to my awesome mentor Seun for her feminine and generous support throughout my coding training and journey. Also, to Code Institute Student Services for their amazing, gentle support. Thank you, from the bottom of my heart.
