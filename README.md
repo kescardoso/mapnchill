@@ -11,7 +11,7 @@ Map & Chill is a geo-location-based website that lists yoga and massage services
 ![enter image description here](https://lh3.googleusercontent.com/yHwTS7JKPwm8w0Q4mVEgwXekp33S4i8HeV0rzhM2iXPW1K2xBcwY1ZbqDr88Snu1qstXFTdd43U)
 
 - [View Map & Chill on GitHub Pages](https://kescardoso.github.io/mapnchill/)
-- [View the Repository on GitHub](https://github.com/kescardoso/ms2-mapnchill)
+- [View the Repository on GitHub](https://github.com/kescardoso/mapnchill)
 
 This project has both educational and entrepreneurial goals.
 
